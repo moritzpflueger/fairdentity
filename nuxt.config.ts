@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   plugins: ['~/plugins/decap-cms.js'],
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', "@nuxtjs/tailwindcss"],
   routeRules: {
     '/': { prerender: true }
   }
