@@ -2,18 +2,9 @@
 title: Immer wieder dieser Traum
 date: 2024-06-28T16:44:00.000Z
 author: Franzi K.
-description: Franzi ist sich sicher Fantasie von Realität unterscheiden zu
-  können, doch wieso immer wieder der selbe Traum? Franzi erzählt wie aus
-  Fantasie Wirklichkeit wird.
-tags:
-  - Aus dem Leben
-  - Psychologie
-  - Recht haben
-image:
-  alt: Frau schläft im Bett
-  image: /images/pexels_ivan_oboleninov_935777_d8d78f7686.jpg
-  caption: "Foto: Ivan Oboleninov"
+description: Franzi ist sich sicher Fantasie von Realität unterscheiden zu können, doch wieso immer wieder der selbe Traum? Franzi erzählt wie aus Fantasie Wirklichkeit wird.
 ---
+
 Es ist Frühling 2017 und ich wache, wie so oft schweißgebadet auf. Damals ging es mir nicht gut. Ich war kurz zuvor in eine neue Stadt gezogen und hatte den Job gewechselt. Richtig angekommen war ich auch nach fast einem Jahr nicht und weit entfernt von einer zufriedenen Arbeitssituation.
 
 # In dieser Zeit begleitete mich immer wieder ein Traum:
