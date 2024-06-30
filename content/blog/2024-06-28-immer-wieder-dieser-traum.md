@@ -9,7 +9,6 @@ tags:
   - Aus dem Leben
   - Psychologie
   - Recht haben
-featureImage: /images/pexels_ivan_oboleninov_935777_d8d78f7686.jpg
 image:
   alt: Frau schläft im Bett
   image: /images/pexels_ivan_oboleninov_935777_d8d78f7686.jpg
