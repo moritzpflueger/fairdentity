@@ -1,3 +1,0 @@
----
-category: Test 2
----
