@@ -3,9 +3,11 @@ backend:
   repo: moritzpflueger/fairdentity
   branch: main # Branch to update (optional; defaults to master)
 
-media_folder: static/img
-public_folder: /img
+locale: 'de'
+media_folder: public/images
+public_folder: /images
 logo_url: https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/90f458e7-38ac-4132-bb32-0aff816f891b/pegasus-41-strassenlaufschuh-fur-RFt1g4.png
+show_preview_links: true
 
 collections:
   - name: 'blog'
@@ -19,5 +21,39 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
+      - { 
+          label: 'Categories', 
+          name: 'categories', 
+          widget: 'relation', 
+          collection: 'categories', 
+          value_field: 'slug', 
+          search_fields: ['name'], 
+          display_fields: ['name'],
+          multiple: true 
+        }
+      - { 
+          label: 'Image', 
+          name: 'image', 
+          widget: 'object',
+          fields: [
+            { label: 'Image', name: 'image', widget: 'image' },
+            { label: 'Alt Text', name: 'alt', widget: 'string' },
+            { label: 'Caption', name: 'caption', widget: 'string' }
+          ]
+        }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'categories'
+    label: 'Categories'
+    folder: 'content/categories'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: "Slug", name: "slug", required: true, pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Cannot contain spaces, capital letters, or special characters. You may separate words with dashes and numbers are allowed."], hint: "This will be used in the URL." }
+      

@@ -1,10 +1,8 @@
 <template>
-  <div>
-    <h1 class="text-6xl font-serif">Welcome to Fairdentity</h1>
-    <p>
-      Take a look at our <NuxtLink to="/blog">blog</NuxtLink>!
-    </p>
-    <NuxtPage />
+  <div class="w-full">
+    <AppHeader />
+    <NuxtPage class="min-h-screen" />
+    <AppFooter />
   </div>
 </template>
 
