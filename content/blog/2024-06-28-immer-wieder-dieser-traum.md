@@ -1,6 +1,7 @@
 ---
 title: Immer wieder dieser Traum
 date: 2024-06-28T16:44:00.000Z
+author: Franzi K.
 description: Franzi ist sich sicher Fantasie von Realität unterscheiden zu
   können, doch wieso immer wieder der selbe Traum? Franzi erzählt wie aus
   Fantasie Wirklichkeit wird.
