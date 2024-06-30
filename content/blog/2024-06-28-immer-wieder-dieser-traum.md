@@ -10,6 +10,10 @@ tags:
   - Psychologie
   - Recht haben
 featureImage: /images/pexels_ivan_oboleninov_935777_d8d78f7686.jpg
+image:
+  alt: Frau schläft im Bett
+  image: /images/pexels_ivan_oboleninov_935777_d8d78f7686.jpg
+  caption: "Foto: Ivan Oboleninov"
 ---
 Es ist Frühling 2017 und ich wache, wie so oft schweißgebadet auf. Damals ging es mir nicht gut. Ich war kurz zuvor in eine neue Stadt gezogen und hatte den Job gewechselt. Richtig angekommen war ich auch nach fast einem Jahr nicht und weit entfernt von einer zufriedenen Arbeitssituation.
 
