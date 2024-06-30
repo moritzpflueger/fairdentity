@@ -9,6 +9,7 @@ tags:
   - Aus dem Leben
   - Psychologie
   - Recht haben
+featureImage: /img/pexels_ivan_oboleninov_935777_d8d78f7686.jpg
 ---
 Es ist Frühling 2017 und ich wache, wie so oft schweißgebadet auf. Damals ging es mir nicht gut. Ich war kurz zuvor in eine neue Stadt gezogen und hatte den Job gewechselt. Richtig angekommen war ich auch nach fast einem Jahr nicht und weit entfernt von einer zufriedenen Arbeitssituation.
 
