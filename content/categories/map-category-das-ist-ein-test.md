@@ -1,4 +1,4 @@
 ---
 category: Das ist ein Test
-slug: a-lkjasdf-asdf
+slug: das-ist-ein-test
 ---
