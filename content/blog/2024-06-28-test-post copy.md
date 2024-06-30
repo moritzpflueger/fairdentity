@@ -4,8 +4,12 @@ date: 2024-06-28T15:45:00.000Z
 author: Moritz Pflüger
 description: This is a test
 tags:
-  - Psychologie
+  - Test
 featureImage: /images/cleaned_bird_skizze.jpg
+image:
+  image: /images/cleaned_bird_skizze.jpg
+  alt: Ein Vogel
+  caption: "Illustratoin: Maja Luibl"
 ---
 # Lorem ipsum dolor sit amet
 
