@@ -6,9 +6,9 @@ description: Franzi ist sich sicher Fantasie von Realität unterscheiden zu
   können, doch wieso immer wieder der selbe Traum? Franzi erzählt wie aus
   Fantasie Wirklichkeit wird.
 tags:
-  - AusdemLeben
-  - testTag
-  - test2
+  - Aus dem Leben
+  - Psychologie
+  - Recht haben
 ---
 Es ist Frühling 2017 und ich wache, wie so oft schweißgebadet auf. Damals ging es mir nicht gut. Ich war kurz zuvor in eine neue Stadt gezogen und hatte den Job gewechselt. Richtig angekommen war ich auch nach fast einem Jahr nicht und weit entfernt von einer zufriedenen Arbeitssituation.
 
