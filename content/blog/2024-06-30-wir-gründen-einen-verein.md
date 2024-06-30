@@ -1,5 +1,5 @@
 ---
-title: Wir gründen einen Verein
+title: Wir gründen einen Verein!
 date: 2024-06-30T22:27:00.000Z
 author: Analena
 description: Seid mit dabei. Stellt mit uns Eure Forderungen auf. Lasst uns
