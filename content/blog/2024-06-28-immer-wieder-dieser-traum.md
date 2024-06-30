@@ -6,7 +6,7 @@ description: Franzi ist sich sicher Fantasie von Realität unterscheiden zu
   können, doch wieso immer wieder der selbe Traum? Franzi erzählt wie aus
   Fantasie Wirklichkeit wird.
 categories:
-  - fasdf
+  - das-ist-ein-test
 image:
   image: /images/pexels_ivan_oboleninov_935777_d8d78f7686.jpg
   alt: Frau in Bett
