@@ -10,10 +10,14 @@ tags:
   - Psychologie
   - Recht haben
 featureImage: /images/pexels_ivan_oboleninov_935777_d8d78f7686.jpg
+image:
+  image: /images/pexels_ivan_oboleninov_935777_d8d78f7686.jpg
+  alt: Frau in Bett
+  caption: "Foto: Moritz Pflüger"
 ---
 Es ist Frühling 2017 und ich wache, wie so oft schweißgebadet auf. Damals ging es mir nicht gut. Ich war kurz zuvor in eine neue Stadt gezogen und hatte den Job gewechselt. Richtig angekommen war ich auch nach fast einem Jahr nicht und weit entfernt von einer zufriedenen Arbeitssituation.
 
-# In dieser Zeit begleitete mich immer wieder ein Traum:
+## In dieser Zeit begleitete mich immer wieder ein Traum:
 
 Ich liege im Bett, in einem dunklen Raum. Durch das Fenster scheint ein wenig Licht von der Straße herein. Mitten in der Nacht wache ich plötzlich auf, ich höre Geräusche im Zimmer. Ich liege auf der Seite, öffne meine Augen und schaue in das Bett, schräg gegenüber. Dort sehe ich meine Mutter und einen Mann. Der Mann kommt mir sogar bekannt vor; - einer der Trainer des Schwimmvereins, der meine Familie angehörte. Schnell schließe ich wieder die Augen und der Traum ist vorbei.
 
@@ -29,17 +33,10 @@ Um zu sehen was die Welt noch zu bieten hat, wechselte ich zum Beispiel relativ 
 
 Da sich dieser Traum häufte, beschloss ich irgendwann, dem Ganzen endlich auf den Grund zu gehen. Aber ich wusste nicht genau wie:
 
-
-
-- Vielleicht eine Therapie?
-
-- Meine Mutter darauf ansprechen?
-
-- Meinen Bruder ins Vertrauen ziehen?
-
-- Ich drehte mich im Kreis. Und meine Gedanken auch.
-
-
+* Vielleicht eine Therapie?
+* Meine Mutter darauf ansprechen?
+* Meinen Bruder ins Vertrauen ziehen?
+* Ich drehte mich im Kreis. Und meine Gedanken auch.
 
 # Spurensuche
 
