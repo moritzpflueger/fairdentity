@@ -26,8 +26,12 @@
         class="bg-white !h-auto"
       >
         <span class="flex !h-28 justify-center text-9xl font-bold text-yellow-400 italic leading-tight">"</span>
-        <p class="text-4xl font-semibold px-20">{{ quote.text }}</p>
-        <div class="font-serif text-2xl my-10 px-20">{{ quote.author }}</div>
+        <p class="text-4xl font-semibold px-20">
+          {{ quote.text }}
+        </p>
+        <div class="font-serif text-2xl my-10 px-20">
+          {{ quote.author }}
+        </div>
       </SwiperSlide>
       <!-- Custom Navigation Buttons -->
       <div class="swiper-button-next custom-button-next"></div>
