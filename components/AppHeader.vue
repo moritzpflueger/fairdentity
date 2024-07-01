@@ -4,8 +4,8 @@
       <div class="navbar-brand pl-3">
         <NuxtLink to="/" class="navbar-item">
           <!-- <Logo /> insert Logo if available -->
-          <h1 class="text-3xl font-bold whitespace-nowrap">
-            ◉ fairdentity
+          <h1 class="text-3xl italic font-semibold whitespace-nowrap">
+            <span class="font-black">fair</span>dentity
           </h1>
         </NuxtLink>
       </div>

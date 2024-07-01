@@ -56,4 +56,76 @@ collections:
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: "Slug", name: "slug", required: true, pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Cannot contain spaces, capital letters, or special characters. You may separate words with dashes and numbers are allowed."], hint: "This will be used in the URL." }
-      
+
+  - label: 'Pages'
+    name: 'pages'
+    files:
+      - label: 'About'
+        name: 'about'
+        file: 'content/about.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Impressum'
+        name: 'impressum'
+        file: 'content/impressum.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Die Mission'
+        name: 'die-mission'
+        file: 'content/die-mission.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Unterstützung'
+        name: 'unterstuetzung'
+        file: 'content/unterstuetzung.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - label: 'Videos'
+    name: 'videos'
+    folder: 'content/videos'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Video URL', name: 'videoUrl', widget: 'string' }
+      - { 
+          label: 'Categories', 
+          name: 'categories', 
+          widget: 'relation', 
+          collection: 'categories', 
+          value_field: 'slug', 
+          search_fields: ['name'], 
+          display_fields: ['name'],
+          multiple: true 
+        }      
+
+  - label: 'Quotes'
+    name: 'quotes'
+    folder: 'content/quotes'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Text', name: 'text', widget: 'string' }
+      - { label: 'Author', name: 'author', widget: 'string' }
+
+  - name: externalLinks
+    label: External Links
+    folder: "content/external-links"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }      

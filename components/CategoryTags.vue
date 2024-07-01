@@ -1,0 +1,63 @@
+<template>
+  <div class="flex gap-3 my-5">
+    <NuxtLink 
+      v-for="category in categories" 
+      :key="category.slug"
+      :to="`/blog/category/${category.slug}`"
+      class="topic-list__item font-semibold"
+    >
+      {{ category.name }}
+    </NuxtLink>
+  </div>  
+</template>
+
+<script setup>
+const route = useRoute()
+
+const props = defineProps({
+  categorySlugs: {
+    type: Array,
+    required: true
+  }
+})
+
+const { data: categories } = await useAsyncData(`category-${route}`, () => 
+  queryContent('/categories')
+    .where({ slug: { $in: props.categorySlugs }})
+    .find()
+)
+
+</script>
+
+<style>
+.topic-list__item {
+  padding: 0 .2rem 0;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  color: black;
+  position: relative;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.topic-list__item::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  bottom: -6px;
+  width: calc(100% + 1px);
+  height: calc(100% - 10px);
+  z-index: -1;
+  transition: all 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+  @apply bg-yellow-400;
+}
+
+.topic-list__item:hover::after {
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 100%;
+}  
+</style>

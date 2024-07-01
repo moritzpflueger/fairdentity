@@ -2,7 +2,12 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   plugins: ['~/plugins/decap-cms.js'],
-  modules: ['@nuxt/content', "@nuxtjs/tailwindcss", "@nuxt/image"],
+  modules: [
+    '@nuxt/content', 
+    "@nuxtjs/tailwindcss", 
+    "@nuxt/image",
+    'nuxt-swiper'
+  ],
   routeRules: {
     '/': { prerender: true }
   }

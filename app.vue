@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <AppHeader />
-    <NuxtPage class="min-h-screen" />
+    <NuxtPage class="nuxt-page min-h-screen bg-white !w-full" />
     <AppFooter />
   </div>
 </template>
@@ -17,3 +17,9 @@ const { data: posts } = await useAsyncData('posts', () =>
   queryContent('/blog').find()
 )
 </script>
+
+<style>
+body {
+  @apply bg-yellow-400;
+}
+</style>
