@@ -1,8 +1,15 @@
 <template>
-  <div class="">
-    <img :src="thumbnailUrl" :alt="`Video Thumbnail ${video.title}`" class="aspect-video object-cover" />
+  <NuxtLink 
+    :to="video._path"
+    class=""
+  >
+    <img 
+      :src="thumbnailUrl" 
+      :alt="`Video Thumbnail ${video.title}`" 
+      class="aspect-video object-cover w-full" 
+    />
     <h3 class="font-bold my-5 text-xl">{{ video.title }}</h3>
-  </div>
+  </NuxtLink>
 </template>
 
 <script setup>
