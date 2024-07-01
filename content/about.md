@@ -1,8 +1,5 @@
 ---
-navigation:
-  title: About
-  icon: 🌟
-title: About Fairdentity Test 2
+title: About Fairdentity Test 3
 ---
 THis is my about page.
 
