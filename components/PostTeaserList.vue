@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto max-w-3xl -mt-12 px-5 mb-32">
+  <section class="mx-auto max-w-4xl -mt-12 px-5 mb-32">
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-10 ">
       <TeaserListItem
         v-for="post in posts"

@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto max-w-3xl px-5 mt-20 mb-32">
+  <section class="mx-auto max-w-4xl px-5 mt-20 mb-32">
     <h2 class="text-3xl mb-5 font-bold">Neueste Videos</h2>    
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-10 ">
       <TeaserListItem
