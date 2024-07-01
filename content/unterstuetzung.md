@@ -1,8 +1,6 @@
 ---
-title: Unterstützung
+title: Finde Untersützung
 ---
-
-# Finde Unterstützung
 
 - [Deutschland](#deutschland)
 - [Österreich](#österreich)

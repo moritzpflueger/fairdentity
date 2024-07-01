@@ -1,7 +1,6 @@
 ---
 title: Impressum
 ---
-# Imprint
 
 This is the imprint page for our website. Here you can find information about the legal aspects of our website and company.
 
