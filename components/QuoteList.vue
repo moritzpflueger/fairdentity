@@ -37,11 +37,20 @@
 </template>
 
 <script setup>
-const { data: quotes } = await useAsyncData('quotes', () => 
-  queryContent('/quotes')
-    .limit(3)
-    .find()
-)
+const { data: quotes } = await useAsyncData('quotes', async () => {
+
+  const fetchedQuotes = await queryContent('/quotes').find()
+  return shuffleQuotes(fetchedQuotes)
+})
+
+function shuffleQuotes(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 </script>
 
 <style>
