@@ -1,4 +1,4 @@
 ---
-quote: Das wünsche ich mir, Tochter zu sein
-source: Kathrin - Betroffene
+text: Das wünsche ich mir, Tochter zu sein
+author: Kathrin - Betroffene
 ---
