@@ -1,11 +1,9 @@
 ---
 navigation:
   title: About
-  icon: '🌟'
+  icon: 🌟
+title: About Fairdentity
 ---
-
-# About Fairdentity
-
 THis is my about page.
 
 [Back home](/)
