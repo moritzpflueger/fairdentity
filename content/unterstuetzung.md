@@ -1,5 +1,5 @@
 ---
-title: Finde Untersützung
+title: Finde Unterstützung
 ---
 
 - [Deutschland](#deutschland)
