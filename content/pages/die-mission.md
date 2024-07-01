@@ -1,8 +1,6 @@
 ---
 title: Die Mission
 ---
-
-# Die Mission
 Die Mission von Fairdentity ist es alles rund um’s Thema Abstammung und Abstammungsfragen zu beleuchten und darüber zu informieren. Im Fokus steht dabei die “Kuckuckskind”-Thematik, aber auch Spenderkinder und Adoptivkinder kommen nicht zu kurz.
 Der gemeinsame Nenner der Gruppen ist es, dass sie um ihre wahre Identität, ihre biologische Herkunft “betrogen” wurden. Hinter den Bezeichnungen stehen immer Individuen, die von ihren Eltern mutwillig über die Kenntnis ihrer biologischen Abstammung unwissend gehalten worden sind. Deshalb ist es an der Zeit darüber offen zu sprechen und eine faire Identität für alle Menschen einzufordern.
 
