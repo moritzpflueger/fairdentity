@@ -13,3 +13,40 @@
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </body>
 </html>
+
+<style>
+/* Start: Custom Collection icons */
+aside a span {
+  --icon-width: 36px;
+  display: inline-flex !important;
+  justify-content: center;
+  align-items: center;
+  width: var(--icon-width) !important;
+}
+aside a span svg {
+  display: none !important;
+}
+aside a span::before {
+  font-size: 1.6rem;
+  width: var(--icon-width);
+}
+aside a[href="#/collections/blog"] span::before {
+  content: "📝";
+}
+aside a[href="#/collections/categories"] span::before {
+  content: "🏷️";
+}
+aside a[href="#/collections/pages"] span::before {
+  content: "📄";
+}
+aside a[href="#/collections/videos"] span::before {
+  content: "►";
+}
+aside a[href="#/collections/quotes"] span::before {
+  content: "💬";
+}
+aside a[href="#/collections/externalLinks"] span::before {
+  content: "🔗";
+}
+/* End: Custom Collection icons */
+</style>
