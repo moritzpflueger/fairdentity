@@ -6,7 +6,7 @@ description: Seid mit dabei. Stellt mit uns Eure Forderungen auf. Lasst uns
   zusammen wachsen und zusammen stark sein. Wir können so einen Austausch und
   Veränderungen bewirken.
 categories:
-  - noch-ein-test
+  - aus-dem-leben
 image:
   image: /images/bistro3.webp
   alt: bild
