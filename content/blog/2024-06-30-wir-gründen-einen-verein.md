@@ -11,6 +11,7 @@ image:
   image: /images/bistro3.webp
   alt: bild
   caption: "Foto: Glashaus Karlsruhe"
+  url: /images/bistro3.webp
 ---
 Die Zeit ist Reif für Veränderung und für mehr Sichtbarkeit. Durch die Gründung eines Vereins erhoffen wir uns mehr Präsenz und Zuspruch Seitens Forschung und Rechtsprechung.
 
