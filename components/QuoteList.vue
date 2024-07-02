@@ -26,10 +26,10 @@
         class="bg-white !h-auto"
       >
         <span class="flex !h-28 justify-center text-9xl font-bold text-yellow-400 italic leading-tight">"</span>
-        <p class="text-4xl font-semibold px-20">
+        <p class="text-3xl sm:text-4xl font-semibold px-5 sm:px-20">
           {{ quote.text }}
         </p>
-        <div class="font-serif text-2xl my-10 px-20">
+        <div class="font-serif text-xl sm:text-2xl my-5 sm:my-10 px-20">
           {{ quote.author }}
         </div>
       </SwiperSlide>
