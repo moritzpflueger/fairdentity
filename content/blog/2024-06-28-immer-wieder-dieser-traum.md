@@ -9,7 +9,6 @@ categories:
   - noch-ein-test
   - aus-dem-leben
 image:
-  image: /images/pexels_ivan_oboleninov_935777_d8d78f7686.jpg
   alt: Frau in Bett
   caption: "Foto: Moritz Pflüger"
   url: /images/pexels_ivan_oboleninov_935777_d8d78f7686.jpg

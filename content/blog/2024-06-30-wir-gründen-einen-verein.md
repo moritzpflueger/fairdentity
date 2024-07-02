@@ -8,7 +8,6 @@ description: Seid mit dabei. Stellt mit uns Eure Forderungen auf. Lasst uns
 categories:
   - noch-ein-test
 image:
-  image: /images/bistro3.webp
   alt: bild
   caption: "Foto: Glashaus Karlsruhe"
   url: /images/bistro3.webp
