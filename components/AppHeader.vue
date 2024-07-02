@@ -44,8 +44,8 @@
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/die-mission" class="">
-            Mission
+          <NuxtLink to="/videos" class="">
+            Videos
           </NuxtLink>
         </li>
         <li>
