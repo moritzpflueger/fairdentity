@@ -46,22 +46,22 @@
         :class="{'hidden sm:flex' : !showMenu}"
       >
         <li>
-          <NuxtLink to="/blog" class=" hover:underline decoration-yellow-400 decoration-4">
+          <NuxtLink to="/blog" class="hover:underline decoration-yellow-400 decoration-4">
             Blog
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/videos" class=" hover:underline decoration-yellow-400 decoration-4">
+          <NuxtLink to="/videos" class="hover:underline decoration-yellow-400 decoration-4">
             Videos
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/books" class=" hover:underline decoration-yellow-400 decoration-4">
+          <NuxtLink to="/books" class="hover:underline decoration-yellow-400 decoration-4">
             Bücher
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/unterstuetzung" class=" hover:underline decoration-yellow-400 decoration-4">
+          <NuxtLink to="/unterstuetzung" class="hover:underline decoration-yellow-400 decoration-4">
             Unterstützung
           </NuxtLink>
         </li>
@@ -69,7 +69,7 @@
           <SocialLinks />
         </li>
         <li v-if="showMenu" class="text-xl font-normal">
-          <NuxtLink to="/impressum" class=" hover:underline decoration-yellow-400 decoration-4">
+          <NuxtLink to="/impressum" class="hover:underline decoration-yellow-400 decoration-4">
             Impressum
           </NuxtLink>
         </li>
