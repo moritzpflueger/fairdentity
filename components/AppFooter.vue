@@ -34,11 +34,7 @@
     </ul>
     <ul class="flex flex-col sm:flex-row sm:items-center sm:gap-10 w-full">  
       <li class="flex gap-3 order-last sm:order-none mt-5 sm:mt-0">
-        <a v-for="link in settings.social_links" :key="link.url" :href="link.url" class="block">
-          <svg :id="'icon-' + link.icon" viewBox="0 0 24 24" fill="currentColor" stroke="none" class="w-10">
-            <path :d="link.iconPath" />
-          </svg>
-        </a>      
+        <SocialLinks />
       </li>
       <li>
         <NuxtLink to="/impressum">Impressum</Nuxtlink>
@@ -75,11 +71,4 @@ const { data: pages } = await useAsyncData('pages-footer', () =>
     .find()
     .then((pages) => pages.filter((page) => isTopLevelPage(page._path)))
 )
-
-const { data: settings } = await useAsyncData('settings', () => 
-  queryContent('settings')
-    .only(['social_links'])
-    .findOne()
-)
-
 </script>

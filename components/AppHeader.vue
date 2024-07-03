@@ -25,12 +25,12 @@
           sm:top-0
           flex-col
           sm:flex-row
-          py-32
+          py-16
           sm:py-0 
           items-center
           sm:items-center 
           left-0 
-          h-[100dvh]
+          h-[calc(100dvh-5rem)]
           sm:h-auto 
           w-full
           sm:w-auto 
@@ -65,7 +65,10 @@
             Unterstützung
           </NuxtLink>
         </li>
-        <li v-if="showMenu">
+        <li v-if="showMenu" class="flex gap-2 text-xl font-normal mt-auto">
+          <SocialLinks />
+        </li>
+        <li v-if="showMenu" class="text-xl font-normal">
           <NuxtLink to="/impressum" class=" hover:underline decoration-yellow-400 decoration-4">
             Impressum
           </NuxtLink>
