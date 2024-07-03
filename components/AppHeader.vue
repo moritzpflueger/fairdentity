@@ -1,5 +1,11 @@
 <template>
-  <header class="bg-white p-5">
+  <header 
+    class="bg-white p-5 fixed w-full z-50 transition-shadow duration-300 ease-in-out"
+    :class="[
+      { 'shadow !py-1': scrollY > 0 && !showMenu },
+      { 'bg-yellow-400': showMenu }
+    ]"
+  >
     <nav class="mx-auto max-w-6xl flex justify-between" role="navigation" aria-label="main navigation">
       <div class="navbar-brand pl-3">
         <NuxtLink to="/" class="navbar-item">
@@ -84,47 +90,22 @@
   import { watch } from 'vue'
   const route = useRoute()
   const showMenu = ref(false)
+  const scrollY = ref(0)
+
+  const updateScroll = () => {
+    scrollY.value = window.scrollY
+  }
 
   watch(() => route.fullPath, () => {
     showMenu.value = false
   })
 
-  // const navQuery = queryContent('/blog')
+  onMounted(() => {
+    window.addEventListener('scroll', updateScroll)
+  })
 
-  // import { ref, watch } from 'vue'
+  onUnmounted(() => {
+    window.removeEventListener('scroll', updateScroll)
+  })
 
-  
-  // const showDropdown = ref(false)
-  // const menuItems = ref([])
-
-  // async fetch () {
-  //   const data = await fetch('/menuItems')
-  //   this.menuItems = data.items
-  // }
-
-  // watch($route) => {
-  //   this.showMenu = false
-  //   this.showDropdown = false
-  // }
-
-  // const itemLink = (item) => {
-  //   if (item.topic) {
-  //     return '/tag/' + item.topic.slug
-  //   }
-  //   if (item.page) {
-  //     return '/page/' + item.page.slug
-  //   }
-  //   if (item.url) {
-  //     return '/' + item.url
-  //   }
-  //   return '/undefined'
-  // }
-
-  // const toggleMenu = () => {
-  //   this.showMenu = !this.showMenu
-  // }
-
-  // const toggleDropdown = () => {
-  //   this.showDropdown = !this.showDropdown
-  // }
 </script>
