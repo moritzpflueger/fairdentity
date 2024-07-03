@@ -1,6 +1,5 @@
 ---
-title: Der Schattenvater - Narrative Identitätskonstruktionen von
-  »Kuckuckskindern« und »Spenderkindern«
+title: Der Schattenvater
 description: Der Vaterschaftstest ist leicht gemacht, die Folgen für Betroffene
   dagegen oft nicht absehbar. Christine Müller interviewt sogenannte "Kuckucks-"
   und "Spenderkinder" und legt dar, welche Folgen die Erkenntnis, dass
