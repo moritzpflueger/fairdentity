@@ -2,15 +2,18 @@
   <header 
     class="bg-white p-5 fixed w-full z-50 transition-shadow duration-300 ease-in-out"
     :class="[
-      { 'shadow !py-1': scrollY > 0 && !showMenu },
+      { 'shadow !py-2': scrollY > 0 && !showMenu },
       { 'bg-yellow-400': showMenu }
     ]"
   >
-    <nav class="mx-auto max-w-6xl flex justify-between" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand pl-3">
+    <nav class="mx-auto max-w-6xl flex items-center justify-between" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
         <NuxtLink to="/" class="navbar-item">
           <!-- <Logo /> insert Logo if available -->
-          <h1 class="text-3xl italic font-semibold whitespace-nowrap underline decoration-yellow-400">
+          <h1 
+            class="text-3xl italic font-semibold whitespace-nowrap underline decoration-yellow-400"
+            :class="{ '!text-2xl': scrollY > 0 }"
+          >
             <span class="font-black">fair</span><span class="font-bold">de</span>ntity
           </h1>
         </NuxtLink>
@@ -81,7 +84,7 @@
         <svg v-if="showMenu" class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
         </svg>
-        <svg v-else class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <svg v-else class="w-10 h-10 translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
         </svg>
       </button>
