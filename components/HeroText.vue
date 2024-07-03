@@ -19,17 +19,21 @@
 import { onMounted } from 'vue'
 import Typed from 'typed.js'
 
+let typed
+
 onMounted(() => {
-  const options = {
+  typed = new Typed('#typed-text', {
     strings: ["ehrliche Abstammung.", "transparente Kommunikation.", "faire Identität."],
     typeSpeed: 50,
     backSpeed: 50,
     backDelay: 2000,
     startDelay: 500,
     loop: true,  
-  }
+  })
+})
 
-  new Typed('#typed-text', options)
+onUnmounted(() => {
+  typed.destroy()
 })
 </script>
 
