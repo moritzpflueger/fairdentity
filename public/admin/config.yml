@@ -38,24 +38,12 @@ collections:
           name: 'image', 
           widget: 'object',
           fields: [
-            { label: 'Image', name: 'image', widget: 'image' },
+            { label: 'Image', name: 'url', widget: 'image' },
             { label: 'Alt Text', name: 'alt', widget: 'string' },
             { label: 'Caption', name: 'caption', widget: 'string' }
           ]
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-
-  - name: 'categories'
-    label: 'Categories'
-    folder: 'content/categories'
-    format: 'frontmatter'
-    create: true
-    slug: '{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: "Slug", name: "slug", required: true, pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Cannot contain spaces, capital letters, or special characters. You may separate words with dashes and numbers are allowed."], hint: "This will be used in the URL." }
 
   - label: 'Pages'
     name: 'pages'
@@ -83,7 +71,7 @@ collections:
         file: 'content/unterstuetzung.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }      
 
   - label: 'Videos'
     name: 'videos'
@@ -108,6 +96,40 @@ collections:
           multiple: true 
         }      
 
+  - label: 'Books'
+    name: 'books'
+    folder: 'content/books'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Author', name: 'author', widget: 'string' }
+      - { 
+          label: 'Categories', 
+          name: 'categories', 
+          widget: 'relation', 
+          collection: 'categories', 
+          value_field: 'slug', 
+          search_fields: ['name'], 
+          display_fields: ['name'],
+          multiple: true 
+        }      
+      - { 
+          label: 'Image', 
+          name: 'image', 
+          widget: 'object',
+          fields: [
+            { label: 'Image', name: 'url', widget: 'image' },
+            { label: 'Alt Text', name: 'alt', widget: 'string' },
+            { label: 'Caption', name: 'caption', widget: 'string', required: false }
+          ]
+        }        
+      - { label: 'Body', name: 'body', widget: 'markdown' }        
+
   - label: 'Quotes'
     name: 'quotes'
     folder: 'content/quotes'
@@ -128,4 +150,50 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "URL", name: "url", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }      
+      - { label: "Description", name: "description", widget: "text" }    
+
+  - name: 'categories'
+    label: 'Categories'
+    folder: 'content/categories'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: "Slug", name: "slug", required: true, pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Cannot contain spaces, capital letters, or special characters. You may separate words with dashes and numbers are allowed."], hint: "This will be used in the URL." }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { 
+          label: 'Image', 
+          name: 'image', 
+          widget: 'object',
+          fields: [
+            { label: 'Image', name: 'url', widget: 'image' },
+            { label: 'Alt Text', name: 'alt', widget: 'string' },
+            { label: 'Caption', name: 'caption', widget: 'string', required: false }
+          ]
+        }        
+
+
+  - name: 'settings'
+    label: 'Settings'
+    files:
+      - label: 'Site Settings'
+        name: 'settings'
+        file: 'content/settings.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string' }
+          - { label: 'Contact Email', name: 'contact_email', widget: 'string' }
+          - { 
+              label: 'Social Links', 
+              name: 'social_links', 
+              widget: 'list', 
+              fields: [
+                { label: 'Name', name: 'name', widget: 'string' },
+                { label: 'URL', name: 'url', widget: 'string' },
+                { label: 'Icon SVG Path', name: 'iconPath', widget: 'string'}
+
+              ] 
+            }        

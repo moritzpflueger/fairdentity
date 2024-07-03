@@ -1,7 +1,7 @@
 <template>
   <section class="mx-auto max-w-3xl my-10 px-5 text-center">
     <Swiper
-    class="flex"
+      class="flex"
       :modules="[SwiperNavigation, SwiperAutoplay, SwiperEffectCreative]"
       :slides-per-view="1"
       :navigation="{
@@ -57,7 +57,7 @@ function shuffleQuotes(array) {
 
 </script>
 
-<style>
+<style scoped>
 .custom-button-next, .custom-button-prev {
   cursor: pointer;
   position: absolute;

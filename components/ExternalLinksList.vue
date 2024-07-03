@@ -1,12 +1,12 @@
 <template>
-  <section class="mx-auto max-w-3xl px-5 mt-20">
-    <h2 class="text-3xl my-10 font-bold">Empfohlene Beiträge aus dem Netz</h2>
+  <section class="mx-auto max-w-4xl px-5 mt-20">
+    <h2 class="text-3xl my-8 font-bold">Empfohlene Beiträge aus dem Netz</h2>
     <ul>
-      <li v-for="link in links" :key="link._path" class="my-5 bg-neutral-100 hover:bg-neutral-200 bg-noise">
+      <li v-for="link in links" :key="link._path" class="my-5 border rounded hover:bg-neutral-100">
         <a :href="link.url" target="_blank" rel="noopener noreferrer" class="flex flex-col items-start gap-2 p-5">
           <div class="flex items-center gap-5">
             <img :src="getFaviconUrl(link.url)" :alt="`${link.title} Favicon`" class="w-10 h-10" />
-            <h3 class="text-2xl font-semibold underline decoration-4 decoration-yellow-400">
+            <h3 class="text-2xl font-semibold hover:underline">
               {{ link.title }}
             </h3>              
           </div>

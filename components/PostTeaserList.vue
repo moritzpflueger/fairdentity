@@ -1,14 +1,15 @@
 <template>
   <section class="mx-auto max-w-4xl -mt-12 px-5 mb-32">
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-10 ">
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 md:gap-10 ">
       <TeaserListItem
         v-for="post in posts"
         :key="post._path"
         :path="post._path"
-        :imageUrl="post.image.image"
+        :imageUrl="post.image.url"
         :imageAlt="post.image.alt"
         :title="post.title"
         :description="post.description"
+        :categories="post.categories"
       />      
     </div>
     <NuxtLink 
@@ -23,7 +24,7 @@
 </template>
 
 <script setup>
-const { data: posts } = await useAsyncData('posts', () => 
+const { data: posts } = await useAsyncData('posts-teaser', () => 
   queryContent('/blog')
     .sort({ date: -1 })
     .limit(3)

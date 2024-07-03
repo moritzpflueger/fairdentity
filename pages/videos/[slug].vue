@@ -2,7 +2,7 @@
   <main class="">
     <section class="px-5 py-10 sm:py-20 mx-auto max-w-3xl">
 
-      <div class="video-container">
+      <div class="video-container mb-5">
         <iframe
           :src="embedUrl"
           frameborder="0"
@@ -21,26 +21,28 @@
     </section>
     <section class="bg-neutral-100 bg-noise p-5 sm:p-10">
       <div class="mx-auto max-w-7xl">
-        <div class="flex justify-between items-center mb-5">
+        <div class="flex justify-between items-end sm:items-center mb-5">
 
           <h2 class="text-3xl font-bold">Weitere Videos</h2>
           <NuxtLink 
-            to="/videos" class="flex items-center gap-2 bg-white py-2 pl-3 pr-2 border font-semibold"
+            to="/videos" class="flex items-center gap-2 bg-white py-2 pl-3 pr-2 border font-semibold whitespace-nowrap"
           >
             Alle Videos
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-5">
               <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
             </svg>
           </NuxtLink>              
-
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-5">
-          <VideoTeaserListItem
-            v-for="video in moreVideos"
-            :key="video._path"
-            :video="video"
-          />
-        </div>           
+        <ul class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+          <li v-for="video in moreVideos" :key="video._path">
+            <TeaserListItem
+              :path="video._path"
+              :imageUrl="thumbnailUrl(video)"
+              :imageAlt="video.title"
+              :title="video.title"
+            />
+          </li>
+        </ul>
       </div>
     </section>
   </main>
@@ -56,13 +58,13 @@ const { data: video } = await useAsyncData(`video-${route.path}`, () =>
     .findOne()
 )
 
-const videoId = computed(() => {
-  const url = new URL(video.value.videoUrl)
+const videoId = (video) => {
+  const url = new URL(video.videoUrl)
   return url.searchParams.get('v') || url.pathname.split('/').pop()
-})
+}
 
 const embedUrl = computed(() => {
-  return `https://www.youtube.com/embed/${videoId.value}`
+  return `https://www.youtube.com/embed/${videoId(video.value)}`
 })
 
 const { data: moreVideos } = await useAsyncData('more-videos', () =>
@@ -72,6 +74,10 @@ const { data: moreVideos } = await useAsyncData('more-videos', () =>
     .limit(3)
     .find()
 )
+
+const thumbnailUrl = (video) => {
+  return `https://img.youtube.com/vi/${videoId(video)}/hqdefault.jpg`
+}
 </script>
 
 <style scoped>

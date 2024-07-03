@@ -1,10 +1,10 @@
 <template>
-  <div class="flex gap-3 my-5">
+  <div class="flex flex-wrap mb-2">
     <NuxtLink 
       v-for="category in categories" 
       :key="category.slug"
       :to="`/blog/category/${category.slug}`"
-      class="topic-list__item font-semibold"
+      class="topic-list__item font-semibold whitespace-nowrap"
     >
       {{ category.name }}
     </NuxtLink>
@@ -21,9 +21,10 @@ const props = defineProps({
   }
 })
 
-const { data: categories } = await useAsyncData(`category-${route}`, () => 
+const { data: categories } = await useAsyncData(`category-${route}-${props.categorySlugs.toString()}`, () => 
   queryContent('/categories')
     .where({ slug: { $in: props.categorySlugs }})
+    .only(['name', 'slug'])
     .find()
 )
 

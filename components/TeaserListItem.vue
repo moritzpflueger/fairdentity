@@ -1,21 +1,40 @@
 <template>
   <NuxtLink 
-    :to="path" class="block bg-whit border rounded-sm"
+    :to="path" class="block bg-white border rounded-md overflow-hidden h-full"
+    :title="title"
   >
     <img 
       :src="imageUrl" 
       :alt="imageAlt" 
-      class="object-cover object-center aspect-video rounded-sm"
+      class="object-cover object-center"
+      :class="[
+        { 'aspect-video border-b': layout === 'default' },
+        { 'aspect-[21/29] p-3': layout === 'book' }
+      ]"
     />
     <div class="p-3">
-      <h2 class="text-xl font-bold">{{ title }}</h2>
-      <p class="line-clamp-5 mt-3">{{ description }}</p>            
+      <CategoryTags v-if="categories" :categorySlugs="categories" />
+      <h2 
+        class="text-xl font-bold line-clamp-3"
+        :class="[
+          { 'text text-lg': layout === 'book' }
+        ]"
+      >
+        {{ title }}
+      </h2>
+      <p v-if="author" class="text-neutral-500 mt-3">{{ author }}</p>
+      <p v-if="description" class="line-clamp-5 mt-3">{{ description }}</p>            
     </div>
   </NuxtLink>     
 </template>
 
 <script setup>
 const props = defineProps({
+  layout: {
+    type: String,
+    required: false,
+    default: 'default'
+  },
   path: {
     type: String,
     required: true
@@ -32,8 +51,16 @@ const props = defineProps({
     type: String,
     required: true
   },
+  author: {
+    type: String,
+    required: false
+  },
   description: {
     type: String,
+    required: false
+  },
+  categories: {
+    type: Array,
     required: false
   }
 })

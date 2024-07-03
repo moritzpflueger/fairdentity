@@ -1,11 +1,11 @@
 <template>
-  <header class="bg-yellow-400 p-5">
+  <header class="bg-white p-5">
     <nav class="mx-auto max-w-6xl flex justify-between" role="navigation" aria-label="main navigation">
       <div class="navbar-brand pl-3">
         <NuxtLink to="/" class="navbar-item">
           <!-- <Logo /> insert Logo if available -->
-          <h1 class="text-3xl italic font-semibold whitespace-nowrap">
-            <span class="font-black">fair</span>dentity
+          <h1 class="text-3xl italic font-semibold whitespace-nowrap underline decoration-yellow-400">
+            <span class="font-black">fair</span><span class="font-bold">de</span>ntity
           </h1>
         </NuxtLink>
       </div>
@@ -35,21 +35,22 @@
           text-4xl
           sm:text-xl 
           font-semibold
+          
         "
         :class="{'hidden sm:flex' : !showMenu}"
       >
         <li>
-          <NuxtLink to="/blog" class="">
+          <NuxtLink to="/blog" class=" hover:underline decoration-yellow-400 decoration-4">
             Artikel
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/videos" class="">
+          <NuxtLink to="/videos" class=" hover:underline decoration-yellow-400 decoration-4">
             Videos
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/unterstuetzung" class="">
+          <NuxtLink to="/unterstuetzung" class=" hover:underline decoration-yellow-400 decoration-4">
             Unterstützung
           </NuxtLink>
         </li>

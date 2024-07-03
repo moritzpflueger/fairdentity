@@ -11,7 +11,7 @@
         v-for="post in items" :key="post._path"
       >
         <img 
-          :src="post.image.image" 
+          :src="post.image.url" 
           :alt="post.image.alt" 
           class="object-cover object-center aspect-video rounded-md"
         />

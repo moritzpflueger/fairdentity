@@ -7,7 +7,7 @@ module.exports = {
         // secondary: '#2b4592',
       },
       backgroundImage: {
-        noise: "url('~/public/images/noise.png')"
+        noise: "url('~/public/assets/noise.png')"
       },
     },
   },
