@@ -5,6 +5,7 @@ description: Ein Buch, das anderen helfen kann, sich besser zu verstehen. Regula
   Vorerst in einem Kinderheim und anschließend vorübergehend bei einer
   Pflegefamilie untergebracht, wurde sie schlussendlich im Alter von zwei
   Monaten bei der Familie Giacometti definitiv platziert.
+author: Regula Brühwiler-Chiacometti
 categories:
   - aus-dem-leben
 image:
