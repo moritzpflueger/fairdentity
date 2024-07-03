@@ -1,6 +1,6 @@
 <template>
   <section class="">
-    <h1 class="px-5 text-4xl text-center pt-20 pb-32 font-serif bg-neutral-100 bg-noise">
+    <h1 class="px-5 text-4xl text-center pt-36 pb-28 font-serif bg-neutral-100 bg-noise">
       Alle Artikel
     </h1>
     <ul class="px-5 grid grid-cols-1 sm:grid-cols-3 gap-5 md:gap-10 max-w-4xl mx-auto pb-20 -mt-10">
