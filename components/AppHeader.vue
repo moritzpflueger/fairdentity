@@ -41,7 +41,7 @@
       >
         <li>
           <NuxtLink to="/blog" class=" hover:underline decoration-yellow-400 decoration-4">
-            Artikel
+            Blog
           </NuxtLink>
         </li>
         <li>
