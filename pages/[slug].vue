@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-white">
+  <main class="bg-white px-5">
     <section class="mx-auto max-w-3xl py-20">
       <ContentDoc>
         <template v-slot="{ doc }">
