@@ -50,8 +50,18 @@
           </NuxtLink>
         </li>
         <li>
+          <NuxtLink to="/books" class=" hover:underline decoration-yellow-400 decoration-4">
+            Bücher
+          </NuxtLink>
+        </li>
+        <li>
           <NuxtLink to="/unterstuetzung" class=" hover:underline decoration-yellow-400 decoration-4">
             Unterstützung
+          </NuxtLink>
+        </li>
+        <li v-if="showMenu">
+          <NuxtLink to="/impressum" class=" hover:underline decoration-yellow-400 decoration-4">
+            Impressum
           </NuxtLink>
         </li>
       </ul>
