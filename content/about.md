@@ -1,5 +1,5 @@
 ---
-title: About Fairdentity Test 4
+title: About Fairdentity
 ---
 THis is my about page.
 
