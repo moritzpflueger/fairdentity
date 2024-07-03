@@ -1,6 +1,6 @@
 <template>
   <section class="mx-auto max-w-4xl px-5 mt-20">
-    <h2 class="text-3xl my-8 font-bold">Empfohlene Beiträge aus dem Netz</h2>
+    <h2 class="text-3xl my-8 font-semibold">Empfohlene Beiträge aus dem Netz</h2>
     <ul>
       <li v-for="link in links" :key="link._path" class="my-5 border rounded hover:bg-neutral-100">
         <a :href="link.url" target="_blank" rel="noopener noreferrer" class="flex flex-col items-start gap-2 p-5">
