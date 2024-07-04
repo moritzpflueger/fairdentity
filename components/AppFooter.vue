@@ -40,7 +40,7 @@
         <NuxtLink to="/impressum">Impressum</Nuxtlink>
       </li>
       <li>
-        <NuxtLink to="/legal">Datenschutzerklärung</Nuxtlink>
+        <NuxtLink to="/datenschutzerklaerung">Datenschutzerklärung</Nuxtlink>
       </li>            
       <li class="sm:ml-auto font-semibold">
         &copy; {{ currentYear }} Fairdentity
