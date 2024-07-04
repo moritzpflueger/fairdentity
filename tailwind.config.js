@@ -12,6 +12,24 @@ module.exports = {
       fontFamily: {
         josefin: ['Josefin Sans'],
         roboto: ['Roboto Condensed']
+      },
+      typography: {
+        DEFAULT: {
+          css: {
+            h1: {
+              marginTop: '5rem',
+              marginBottom: '1rem',
+            },
+            h2: {
+              marginTop: '2rem',
+              marginBottom: '1rem',
+              textDecoration: 'none',
+              a: {
+                textDecoration: 'none',
+              }
+            }
+          },
+        },
       }
     },
   },
