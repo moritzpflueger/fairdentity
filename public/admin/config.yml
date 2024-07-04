@@ -48,9 +48,9 @@ collections:
   - label: 'Pages'
     name: 'pages'
     files:
-      - label: 'About'
-        name: 'about'
-        file: 'content/about.md'
+      - label: 'Mitmachen'
+        name: 'mitmachen'
+        file: 'content/mitmachen.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
