@@ -1,8 +1,6 @@
 ---
 title: Datenschutzerklärung
 ---
-# Datenschutzerklärung
-
 ## Allgemeine Hinweise
 
 Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
@@ -11,8 +9,8 @@ Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir behand
 
 Verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
-**Fairdentity Blog**  
-E-Mail: kontakt@fairdentity-blog.de
+**Fairdentity**  
+E-Mail: fairdentity@gmx.de
 
 ## Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck ihrer Verwendung
 
