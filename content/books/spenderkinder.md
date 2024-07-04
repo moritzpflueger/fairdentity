@@ -22,3 +22,5 @@ Prof. Dr. Gerd Lehmkuhl ist Arzt und Psychologe, war bis vor kurzem Leiter der K
 **Preis:** 19,99 € (Taschenbuch)
 **Seiten:** 257
 **Erschienen am:** 03/2016
+
+Quelle: [jpc](https://www.jpc.de/jpcng/books/detail/-/art/wolfgang-oelsner-spenderkinder-ku-nstliche-befruchtung-samenspende-leihmutterschaft-und-die-folgen/hnum/8517532)
