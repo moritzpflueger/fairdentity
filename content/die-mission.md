@@ -29,6 +29,4 @@ Mein Name ist Analena, ich bin 30 Jahr alt und vor vier Jahren habe ich erfahren
 Seither hinterfrage ich vieles in meinem Leben. Vor allem meine Identität. Diese wurde von heute auf morgen völlig auf den Kopf gestellt. WER BIN ICH. Ich spüre deutlich, dass da etwas fehlt und vielleicht habe ich es schon immer gemerkt, dieses fehlende Stück. Von vielen Gleichgesinnten erfahre ich ähnliche Gefühle, was uns alle sehr verbindet. Dieses Verständnis, welches ich von Betroffenen erfahre, wünsche ich mir auch in unserer Gesellschaft. Sätze wie "Ach, dir ging es doch gut" oder "Du hast wenigstens einen Vater" gehen mir gegen den Strich. Ich sage ja auch nicht zu einem Menschen, dessen Bein oder Arm amputiert sind, "Hach schau wenigstens hast du noch eins, manche Menschen haben gar keine Beine mehr". Ja, genau das ist es: geschmacklos! Es ist absolut nicht in Ordnung, wenn Menschen dir mit diesen Sprüchen begegnen, egal ob Freunde, Verwandte oder fremde Personen. Niemand hat das Recht über die Gefühlslage eines anderen Menschen zu Urteilen.
 Nun deswegen die Motivation zu [fairdentity.de](https://fairdentity.de) - its time for change!
 
-Gründerin und Redakteurin von Fairdentity (2).png
-
 ![Gründerin und Redakteurin von Fairdentity](/images/gruenderin_und_redakteurin_von_fairdentity_2_b47d4915f0.png "Gründerin und Redakteurin von Fairdentity")
