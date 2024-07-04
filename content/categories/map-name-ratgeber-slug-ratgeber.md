@@ -1,0 +1,4 @@
+---
+name: Ratgeber
+slug: ratgeber
+---
