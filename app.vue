@@ -3,6 +3,7 @@
     <AppHeader />
     <NuxtPage class="nuxt-page min-h-screen bg-white !w-full" />
     <AppFooter />
+    <CookieConsent />
   </div>
 </template>
 

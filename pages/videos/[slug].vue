@@ -1,8 +1,8 @@
 <template>
   <main class="">
-    <section class="px-5 py-10 sm:py-20 mx-auto max-w-3xl">
+    <section v-if="isInitialized" class="px-5 py-10 sm:py-20 mx-auto max-w-3xl">
 
-      <div class="video-container mb-5">
+      <div v-if="hasConsent" class="video-container mb-5 relative">
         <iframe
           :src="embedUrl"
           frameborder="0"
@@ -10,10 +10,22 @@
           class="responsive-iframe"
         ></iframe>
       </div>    
+      
+      <div v-else class="bg-neutral-800 bg-noise min-h-96 flex flex-col items-center justify-center mb-5">
+        <p class="text-center text-neutral-100 px-20">
+          Dieses Video kann nur angezeigt werden, wenn du der Verwendung von Cookies zustimmst.
+        </p>
+      <button 
+        @click="saveCookieConsent('functional', true)"
+        class="bg-yellow-400 text-black px-4 py-2 rounded-md mt-5"
+      >
+        Funktionelle Cookies zulassen
+      </button>
+      </div>
 
       <CategoryTags :categorySlugs="video.categories" />
 
-      <h1 class="font-bold text-4xl sm:text-6xl my-5">{{ video.title }}</h1>
+      <h1 class="font-bold font-josefin tracking-tighter text-4xl sm:text-6xl my-5">{{ video.title }}</h1>
       <div class="text-xl sm:text-2xl font-serif">
         {{ video.description }}
       </div>   
@@ -49,6 +61,10 @@
 </template>
 
 <script setup>
+import Cookies from 'js-cookie';
+
+const isInitialized = ref(false); 
+const hasConsent = ref(false);
 const route = useRoute()
 const slug = route.params.slug
 
@@ -77,6 +93,23 @@ const { data: moreVideos } = await useAsyncData('more-videos', () =>
 
 const thumbnailUrl = (video) => {
   return `https://img.youtube.com/vi/${videoId(video)}/hqdefault.jpg`
+}
+
+onBeforeMount(() =>{
+  const cookieConsent = Cookies.get('cookieConsent');
+  if (cookieConsent) {
+    const preferences = JSON.parse(cookieConsent)
+    hasConsent.value = preferences['functional'];
+  } 
+  isInitialized.value = true;
+})
+
+const saveCookieConsent = (type, value) => {
+  const cookieConsent = Cookies.get('cookieConsent')
+  const preferences = cookieConsent ? JSON.parse(cookieConsent) : {}
+  preferences[type] = value
+  Cookies.set('cookieConsent', JSON.stringify(preferences))
+  hasConsent.value = value
 }
 </script>
 
