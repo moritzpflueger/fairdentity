@@ -54,12 +54,6 @@ collections:
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Impressum'
-        name: 'impressum'
-        file: 'content/impressum.md'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Die Mission'
         name: 'die-mission'
         file: 'content/die-mission.md'
@@ -71,7 +65,19 @@ collections:
         file: 'content/unterstuetzung.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }      
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Impressum'
+        name: 'impressum'
+        file: 'content/impressum.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }                
+      - label: 'Datenschutzerklärung'
+        name: 'datenschutzerklaerung'
+        file: 'content/datenschutzerklaerung.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }                
 
   - label: 'Videos'
     name: 'videos'
