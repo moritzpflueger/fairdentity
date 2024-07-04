@@ -64,6 +64,7 @@ Hier hängt es natürlich auch von dem bisherigen Vater ab, ob er den Kontakt un
 Jetzt gibt es auch die Fälle, in denen ein Mann verheiratet war und er dachte er sei der (biologische) Vater. Damit wird er auch der rechtliche Vater. Stellt sich jetzt heraus, dass er nicht der Vater ist, dann kann er die Vaterschaft anfechten. Er ist dann der sog. Scheinvater.
 
 Fachanwalt für Familienrecht⠀⠀⠀⠀⠀
+
 Rechtsanwalt Klaus Wille.
 
 Mehr Informationen über familienrechtliche Themen findet ihr auf der Seite von Rechtsanwalt Wille: [https://www.anwalt-wille.de/](https://www.anwalt-wille.de/)
