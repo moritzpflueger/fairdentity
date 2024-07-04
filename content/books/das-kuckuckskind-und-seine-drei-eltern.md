@@ -5,7 +5,7 @@ description: Eine kritische Würdigung der bestehenden Rechtslage mit Vorschläg
   EMRK-Raum.
 author: Kerstin Aust
 categories:
-  - aus-dem-leben
+  - recht-haben
 image:
   url: /images/51_rpwe91_qn_l_fa9ea23f8e.jpg
   alt: Buchcover
