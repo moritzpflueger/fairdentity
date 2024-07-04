@@ -6,7 +6,8 @@ description: '"Die Heimreise" ist ein ganz besonderer Filmtipp über einen junge
   Mann der sich nach Berlin begibt um seiner wahren Identität auf die Spur zu
   gehen.'
 categories:
-  - biographische-erfahrung
+  - reportage
+  - filmtipp
 image:
   url: /images/orange_and_white_vibrant_modern_brushstrokes_beauty_you_tube_thumbnail_2_7a0a389d9f.png
   alt: Filmposter "Die Heimreise"
