@@ -11,13 +11,9 @@ title: Finde Unterstützung
 
 \## Selbsthilfegruppen
 
-
-
 ![Coverbild Selbsthilfegruppe](/images/8_db8d375e74.png "Coverbild Selbsthilfegruppe")
 
 In Deutschland gibt es bisher noch keine regelmäßig aktive Selbsthilfegruppe, deswegen gründen wir nun eine in Köln. Auch in Thüringen steht eine Gruppe in den Startlöchern.
-
-
 
 \## Selbsthilfegruppe NRW (Köln)
 
@@ -33,35 +29,27 @@ E-Mail: kuckucks_kinder@gmx.de
 
 \*\*Möchtest du selbst eine Selbsthilfegruppe gründen? Schreib uns gern, wir helfen dir bei den ersten Schritten.\*\*
 
-
-
 \## Soforthilfe
 
-5.png
+![Coverbild Soforthilfe](/images/5_10c05a9f22.png "Coverbild Soforthilfe")
 
-
-
-Seelsorge
+\### Seelsorge
 
 Wenn ihr akut Hilfe benötigt, könnt ihr euch rund um die Uhr bei der Nummer der Seelsorge melden. Diese Nummer ist rund um die Uhr erreichbar. Auch an Wochenenden und an Feiertagen.
 
-Telefon: 0800 / 111 0 111 oder 0800 / 111 0 222
+\*\*Telefon: 0800 / 111 0 111 oder 0800 / 111 0 222\*\*
 
-
-
-Nummer gegen Kummer (Hilfe für Kinder und Jugendliche)
+\### Nummer gegen Kummer (Hilfe für Kinder und Jugendliche)
 
 Seid ihr noch keine 18 Jahre und möchtet gerne mit jemandem speziell für eurer Alter sprechen, dann könnt ihr euch auch immer gerne beim Kinder- und Jugendtelefon melden. Dort wird euch professionell und anonym Rede und Antwort gestanden. Erreichbar montags bis samstags von 14 - 20 Uhr.
 
-Kinder- und Jugendtelefon: 116111 oder 0800 / 111 0 333
+\*\*Kinder- und Jugendtelefon: 116111 oder 0800 / 111 0 333\*\*
 
-www.nummergegenkummer.de/kinder-und-jugendtelefon
+\[www.nummergegenkummer.de/kinder-und-jugendtelefon](https://www.nummergegenkummer.de/kinder-und-jugendtelefon.html)
 
+\## Psychologische Unterstützung
 
-
-Psychologische Unterstützung
-
-6.png
+![Coverbild Psychologische Unterstützung](/images/6_585f494318.png "Coverbild Psychologische Unterstützung")
 
 Manchmal hilft das Reden mit Freunden und Familie nicht mehr. Manchmal ist es einfach besser sich professionelle Unterstützung zu suchen.
 
@@ -71,37 +59,31 @@ https://www.psychotherapiesuche.de/pid/search/
 
 https://www.therapie.de/therapeutensuche/
 
+\## Mediation
 
-
-Mediation
-
-7.png
+![Coverbild Mediation](/images/7_17a649ea00.png "Coverbild Mediation")
 
 Unter Mediation versteht man, dass professionelle Vermitteln zwischen zwei Konflikt-Parteien. Ein/e MediatorIn kann dich zum Beispiel bei einem Gespräch mit deinen Eltern unterstützen.
 
-
-
-Konflikt-Hotline
+\## Konflikt-Hotline
 
 Gibt es einen akuten Konflikt und soll es nicht zur Eskalation kommen, könnt ihr Euch täglich von 8.00 bis 20.00 Uhr bei der Konflikt-Hotline kostenlos beraten lassen.
 
-Telefon: 0800 247 36 76
+\*\*Telefon: 0800 247 36 76\*\*
 
 Mehr findest du beim Bundesverband für Mediation.
 
 # Österreich
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+\## Psychologische Unterstützung
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.   
+![Coverbild Psychologische Unterstützung](/images/6_585f494318.png "Coverbild Psychologische Unterstützung")
 
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.   
+\### Therapie
 
-Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.   
+Auf dieser Webseite kannst du nach deiner Postleitzahl nach Therapeuten und Therapeutinnen suchen.
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.   
-
-At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+https://www.psyonline.at/
 
 # Schweiz
 
