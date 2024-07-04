@@ -1,0 +1,4 @@
+---
+name: Selbsterfahrung
+slug: selbsterfahrung
+---
