@@ -1,37 +1,41 @@
 ---
 title: Impressum
 ---
+## Urheberrecht
 
-This is the imprint page for our website. Here you can find information about the legal aspects of our website and company.
+Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten
+unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und
+jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen
+der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads
+und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen
+Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden,
+werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche
+gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis.
+Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
 
-## Company Information
+## Verwendung der Inhalte
 
-- Company Name: [Your Company Name]
-- Address: [Your Company Address]
-- Phone: [Your Company Phone Number]
-- Email: [Your Company Email Address]
-- Website: [Your Company Website]
+Die sich auf der Seite befindenden Erfahrungsberichte, Geschichten, oder anderweitiges Textmaterial, darf unter Hinweis auf fairdentity.com und dem Zusatz des Autors oder der Autorin, als jeweilge/r Urheber/in, zitiert werden.
 
-## Legal Disclaimer
+## Impressum
 
-- [Disclaimer 1]
-- [Disclaimer 2]
-- [Disclaimer 3]
+Verantwortlicher im Sinne von § 18 Absatz 2 MStv
 
-## Privacy Policy
+P. Razborsek
+Dünnwalder Straße 43
+51063 Köln, Deutschland
 
-- [Privacy Policy 1]
-- [Privacy Policy 2]
-- [Privacy Policy 3]
+Kontakt: fairdentity@gmx.de
 
-## Terms and Conditions
+Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
+Analena R., Köln, Deutschland
 
-- [Terms and Conditions 1]
-- [Terms and Conditions 2]
-- [Terms and Conditions 3]
+## Quellenangaben für die verwendeten Bilder und Grafiken:
 
-## Copyright Notice
+Die jeweiligen Fotos und Grafiken sind jeweils mit dem Eigentümer bzw. Rechteinhaber in Abstimmung verlinkt.
 
-- [Copyright Notice 1]
-- [Copyright Notice 2]
-- [Copyright Notice 3]
+Bilderquellen: © [pexels.com](http://pexels.com/) (mit der Nennung des jeweiligen Fotographen)
+
+## Haftungshinweis
+
+Diese Website enthält Verknüpfungen zu Internetseiten Dritter („externe Links“). Diese Seiten unterliegen der Haftung der jeweiligen Betreiber. Wir haben bei der erstmaligen Verknüpfung der externen Links die fremden Inhalte daraufhin überprüft, ob etwaige Rechtsverstöße bestehen. Zu dem Zeitpunkt waren keine Rechtsverstöße ersichtlich. Wir besitzen keinerlei Einfluss auf die aktuelle und zukünftige Gestaltung und auf die Inhalte der verknüpften Seiten. Das Setzen von externen Links bedeutet nicht, dass wir uns die hinter dem Verweis oder Link liegenden Inhalte zu Eigen machen.
