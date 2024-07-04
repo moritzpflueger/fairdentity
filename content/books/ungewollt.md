@@ -5,7 +5,7 @@ description: Sophie ist ein Kuckuckskind. Nach einer von Kälte, Ablehnung und
   Vater nicht ihr Vater ist.
 author: Sophie Christina Aichinger
 categories:
-  - aus-dem-leben
+  - biographische-erfahrung
 image:
   url: /images/buchcover_ungewollt_0703b7b60a.jpg
   alt: Buchcover
