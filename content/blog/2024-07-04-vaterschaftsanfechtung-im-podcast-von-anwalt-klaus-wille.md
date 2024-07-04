@@ -11,7 +11,7 @@ categories:
 image:
   url: /images/zwischenueberschrift_hinzufuegen_3269fe2026.png
   alt: Symbolbild
-  caption: Test
+  caption: ""
 ---
 Heute vor einer Woche habe ich mich via Zoom mit Rechtsanwalt Klaus Wille für seinen Podcast "Wille - Podcast für Familienrecht" getroffen. Wir sprachen offen und ehrlich über den Ablauf und die Konflikte der Vaterschaftsanfechtung.
 
