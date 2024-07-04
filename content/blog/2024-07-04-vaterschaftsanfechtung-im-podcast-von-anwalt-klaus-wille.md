@@ -23,7 +23,7 @@ Anhand meiner persönlichen Geschichte und die Erfahrung die ich durch den Fall 
 
 Geld ist so ein schwieriger Faktor in der ganzen Thematik - dennoch der letzte Grund warum ein betroffenes "Kuckucks"-Kind eine solche Entscheidung trifft.
 
-\## Klaus Wille
+## Klaus Wille
 
 Klaus Will, ein in Köln lebender Rechtsanwalt. Seit rund 19 Jahren ist er Fachanwalt für Familienrecht und arbeitet hauptsächlich an familienrechtlichen Fällen. Besonders emotional und privat sind die Familienangelegenheiten seiner Klienten. Doch dass macht den Beruf erst so spannend und intensiv. Als Familienvater kann Herr Wille sich mitfühlend in die Situationen der Menschen hineinversetzen. Gemäß seines fortwährenden Mottos "Wo ein Wille ist, ist auch ein Weg" schaut er gezielt auf die Lösungsfindung im Namen seiner Klienten. Neben seiner Tätigkeit an realen Schicksalen gibt er sein Wissen an die nächste Generation als Dozent für Unterhaltsrecht. Außerdem ist er noch als Vertrauensanwalt des Vereins "ISUV e.V" (Interessenverband Unterhalt und Familienrecht) tätig. Seit März 2020 hat KLaus Wille einen eigenen Podcast für Familienrecht. Wöchentlich beantwortet er häufig gestellte Fragen oder bespricht Kernpunktthemen ausführlich, für Laien verständlich.
 
@@ -33,6 +33,6 @@ In den hier verlinkten Folgen könnt ihr mehr zum Thema hören:
 
 <iframe src="https://open.spotify.com/embed-podcast/episode/372oC9LpuqAlKWmEl4Kshv" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-
+<br />
 
 <iframe src="https://open.spotify.com/embed-podcast/episode/5N4Qwt1s1wiryORdXka7mw" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
