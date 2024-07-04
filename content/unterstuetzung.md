@@ -21,7 +21,7 @@ In Deutschland gibt es bisher noch keine regelmäßig aktive Selbsthilfegruppe, 
 
 \## Selbsthilfegruppe NRW (Köln)
 
-https://youtu.be/Ai-uPypP_yE
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ai-uPypP_yE?si=OsHe-tLF-IuTtMI3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Wenn Du dich auch als "Kuckuckskind" bezeichnest oder erfahren hast, dass Dein Vater nicht Dein Erzeuger ist und Du nach Gleichgesinnten suchst, melde dich bei uns per E-Mail. Auch wenn du nicht in Köln lebst, kannst du bei unseren Treffen teilnehmen. In der Zeit während Corona, werden wir wahrscheinlich auch einige Treffen online anbieten.
 
