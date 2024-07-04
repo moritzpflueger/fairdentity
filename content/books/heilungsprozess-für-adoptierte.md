@@ -3,7 +3,8 @@ title: Heilungsprozess für Adoptierte
 description: "Ein Weg zur Verarbeitung "
 author: Joe Soll
 categories:
-  - aus-dem-leben
+  - selbsterfahrung
+  - ratgeber
 image:
   url: /images/51ii_apk2sd_l_26ebab505b.jpg
   alt: Coverbild
