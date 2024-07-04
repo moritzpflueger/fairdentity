@@ -74,7 +74,6 @@ Gibt es einen akuten Konflikt und soll es nicht zur Eskalation kommen, könnt ih
 Mehr findest du beim Bundesverband für Mediation.
 
 # Österreich
-
 ## Psychologische Unterstützung
 
 ![Coverbild Psychologische Unterstützung](/images/6_585f494318.png "Coverbild Psychologische Unterstützung")
