@@ -1,14 +1,7 @@
 ---
-title: Seitensprungkind - Wie ich meine wahre Identität fand
-description: "Die Adoption wurde Regula Brühwiler-Giacometti als Kind nie
-  verheimlicht, aber erst im Erwachsenenalter, ausgelöst durch die Geburt ihres
-  Sohnes, kommt der Wunsch in ihr auf, nach den eigenen Wurzeln zu suchen. Was
-  haben ihr die leiblichen Eltern durch die Gene mitgegeben? Kann sie sich in
-  ihnen spiegeln? Oder war es die soziale Prägung, die sie durch die
-  Adoptivfamilie erhalten hat, und die ausschlaggebend für ihren Charakter und
-  ihr Handeln wurde? Und vor allem: Welche Folgen hatte die frühe Trennung von
-  der Mutter und die anschließende Adoption für ihr Leben?"
-author: Regula Brühwiler-Chiacometti
+title: Seitensprungkind
+description: Wie ich meine wahre Identität fand
+author: Regula Brühwiler-Giacometti
 categories:
   - aus-dem-leben
 image:
