@@ -8,8 +8,7 @@ title: Finde Unterstützung
 
 # Allgemein
 ## Zum Thema "Spenderkinder"
-[www.spenderkinder.de](http://www.spenderkinder.de/)
-Das ist ein ehrenamtlich Verein mit 200 durch Samenspende gezeugten Erwachsenen. Der Verein wurde nach dem dreijährigen Bestehen und Wachsen der Seite, durch die ersten Mitglieder 2009 gegründet. Dem Verein kann sich jedes "Spenderkind" durch einen übliche Beitrittsantrag anschließen. Der Verein möchte mit seiner Seite und seiner Präsenz andere "Spenderkinder" oder durch Eizellen gezeugten Menschen, Eltern und die es werden wollen sowie Spender über rechtliches, psychologisches und nicht zuletzt ethisches informieren und aufklären.
+[www.spenderkinder.de](http://www.spenderkinder.de/) ist ein ehrenamtlich Verein mit 200 durch Samenspende gezeugten Erwachsenen. Der Verein wurde nach dem dreijährigen Bestehen und Wachsen der Seite, durch die ersten Mitglieder 2009 gegründet. Dem Verein kann sich jedes "Spenderkind" durch einen übliche Beitrittsantrag anschließen. Der Verein möchte mit seiner Seite und seiner Präsenz andere "Spenderkinder" oder durch Eizellen gezeugten Menschen, Eltern und die es werden wollen sowie Spender über rechtliches, psychologisches und nicht zuletzt ethisches informieren und aufklären.
 
 # Deutschland
 ## Selbsthilfegruppen
