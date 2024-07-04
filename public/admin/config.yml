@@ -169,14 +169,15 @@ collections:
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: "Slug", name: "slug", required: true, pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Cannot contain spaces, capital letters, or special characters. You may separate words with dashes and numbers are allowed."], hint: "This will be used in the URL." }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { 
           label: 'Image', 
           name: 'image', 
           widget: 'object',
+          required: false,
           fields: [
-            { label: 'Image', name: 'url', widget: 'image' },
-            { label: 'Alt Text', name: 'alt', widget: 'string' },
+            { label: 'Image', name: 'url', widget: 'image', required: false, },
+            { label: 'Alt Text', name: 'alt', widget: 'string', required: false, },
             { label: 'Caption', name: 'caption', widget: 'string', required: false }
           ]
         }        

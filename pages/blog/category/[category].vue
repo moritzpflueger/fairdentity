@@ -2,8 +2,8 @@
 <template>
   <section class="">
     <div 
-      class="pt-36 pb-28 bg-cover bg-center bg-no-repeat"
-      :style="`background-image: url(${category.image.url})`"
+      class="pt-36 pb-28 bg-cover bg-center bg-no-repeat bg-neutral-100"
+      :style="`background-image: url(${category.image?.url})`"
     >
       <h1 
         class="font-josefin tracking-tighter text-4xl text-center font-bold py-5 underline decoration-8 decoration-yellow-400"
