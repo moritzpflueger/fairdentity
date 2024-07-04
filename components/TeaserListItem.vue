@@ -1,6 +1,6 @@
 <template>
   <NuxtLink 
-    :to="path" class="block bg-white border rounded-md overflow-hidden h-full"
+    :to="path" class="block bg-white shadow border rounded-md overflow-hidden h-full"
     :title="title"
   >
     <img 
@@ -15,15 +15,15 @@
     <div class="p-3">
       <CategoryTags v-if="categories" :categorySlugs="categories" />
       <h2 
-        class="text-xl font-bold line-clamp-3"
+        class="text-2xl leading-tight tracking-tighter font-semibold line-clamp-3 font-josefin"
         :class="[
           { 'text text-lg': layout === 'book' }
         ]"
       >
         {{ title }}
       </h2>
-      <p v-if="author" class="text-neutral-500 mt-3">{{ author }}</p>
-      <p v-if="description" class="line-clamp-5 mt-3">{{ description }}</p>            
+      <p v-if="author" class="text-neutral-500">{{ author }}</p>
+      <p v-if="description" class="line-clamp-5">{{ description }}</p>            
     </div>
   </NuxtLink>     
 </template>

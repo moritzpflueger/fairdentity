@@ -1,7 +1,7 @@
 <template>
   <section class="mx-auto max-w-4xl px-5 mt-20 mb-32">
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-      <h2 class="text-3xl font-semibold sm:col-span-1 order-1">Empfohlene Bücher</h2>    
+      <h2 class="text-3xl font-josefin tracking-tighter font-semibold sm:col-span-1 order-1">Empfohlene Bücher</h2>    
       <div class="sm:col-span-1 order-last sm:order-1">
         <NuxtLink 
           to="/books" 

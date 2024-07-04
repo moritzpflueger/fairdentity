@@ -4,7 +4,7 @@
       v-for="category in categories" 
       :key="category.slug"
       :to="`/blog/category/${category.slug}`"
-      class="topic-list__item font-semibold whitespace-nowrap"
+      class="topic-list__item font-josefin tracking-tighter text-lg whitespace-nowrap"
     >
       {{ category.name }}
     </NuxtLink>
@@ -39,7 +39,7 @@ const { data: categories } = await useAsyncData(`category-${route}-${props.categ
   position: relative;
   position: relative;
   overflow: hidden;
-  text-decoration: none;
+  text-decoration: none;  
   z-index: 1;
 }
 
@@ -47,9 +47,9 @@ const { data: categories } = await useAsyncData(`category-${route}-${props.categ
   content: "";
   position: absolute;
   left: -2px;
-  bottom: -6px;
+  bottom: 2px;
   width: calc(100% + 1px);
-  height: calc(100% - 10px);
+  height: calc(100% - 22px);
   z-index: -1;
   transition: all 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
   @apply bg-yellow-400;

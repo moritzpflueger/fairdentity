@@ -11,7 +11,7 @@
         <NuxtLink to="/" class="navbar-item">
           <!-- <Logo /> insert Logo if available -->
           <h1 
-            class="text-3xl italic font-semibold whitespace-nowrap underline decoration-yellow-400"
+            class="text-3xl italic font-josefin font-semibold whitespace-nowrap underline decoration-yellow-400"
             :class="{ '!text-2xl': scrollY > 0 }"
           >
             <span class="font-black">fair</span><span class="font-bold">de</span>ntity
@@ -42,11 +42,12 @@
           gap-10
           sm:gap-10 
           text-4xl
-          sm:text-xl 
+          sm:text-2xl 
           font-semibold
+          font-josefin
           
         "
-        :class="{'hidden sm:flex' : !showMenu}"
+        :class="{'hidden md:flex' : !showMenu}"
       >
         <li>
           <NuxtLink to="/blog" class="hover:underline decoration-yellow-400 decoration-4">
@@ -79,7 +80,7 @@
       </ul>
       <button 
         @click="showMenu=!showMenu" 
-        class="sm:hidden"
+        class="md:hidden"
       >
         <svg v-if="showMenu" class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>

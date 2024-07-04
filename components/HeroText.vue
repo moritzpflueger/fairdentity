@@ -1,9 +1,8 @@
 <template>
   <div id="hero-text" class="text-center">
-    <h1 class="text-4xl sm:text-6xl font-normal text-center mb-10">
-      Die Zeit <span class="whitespace-nowrap">ist reif für</span> 
-      <br/>
-      <span id="typed-text" class="font-black italic underline decoration-yellow-400">
+    <h1 class="text-4xl sm:text-6xl font-light text-center mb-10" >
+      <div class="text-3xl sm:text-5xl">Die Zeit <span class="whitespace-nowrap">ist reif für</span> </div>
+      <span id="typed-text" class="italic tracking-tighter font-black underline decoration-yellow-400">
       </span>
       <!-- Für transparente Identität &
       faire Abstammung. -->
@@ -43,5 +42,6 @@ onUnmounted(() => {
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
+  font-family: 'Josefin Sans', serif !important;
 }
 </style>

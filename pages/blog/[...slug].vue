@@ -12,7 +12,7 @@
       
       <CategoryTags :categorySlugs="post.categories" />
       
-      <h1 class="font-bold text-4xl sm:text-6xl my-5 sm:my-10">{{ post.title }}</h1>
+      <h1 class="font-bold font-josefin tracking-tighter text-4xl sm:text-6xl my-5 sm:my-10">{{ post.title }}</h1>
       <div class="mb-5">
         {{ postDate }} | {{ post.author }}
       </div>

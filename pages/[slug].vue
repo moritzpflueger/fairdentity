@@ -4,7 +4,7 @@
       <ContentDoc>
         <template v-slot="{ doc }">
           <article>
-            <h1 class="font-bold text-6xl my-10">{{ doc.title }}</h1>
+            <h1 class="font-bold font-josefin tracking-tighter text-6xl my-10">{{ doc.title }}</h1>
             <ContentRenderer class="prose" :value="doc" />
           </article>
         </template>

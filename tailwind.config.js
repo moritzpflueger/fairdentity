@@ -9,6 +9,10 @@ module.exports = {
       backgroundImage: {
         noise: "url('~/public/assets/noise.png')"
       },
+      fontFamily: {
+        josefin: ['Josefin Sans'],
+        roboto: ['Roboto Condensed']
+      }
     },
   },
   plugins: [
