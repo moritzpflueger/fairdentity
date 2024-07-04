@@ -66,7 +66,7 @@ const { data: posts } = await useAsyncData('posts-footer', () =>
 
 const { data: pages } = await useAsyncData('pages-footer', () => 
   queryContent('/')
-    .where({ _path: { $not: { $in: ['/impressum', '/settings'] } } })
+    .where({ _path: { $not: { $in: ['/impressum', '/settings', '/datenschutzerklaerung'] } } })
     .only(['_path', 'title'])
     .find()
     .then((pages) => pages.filter((page) => isTopLevelPage(page._path)))
