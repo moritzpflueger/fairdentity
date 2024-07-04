@@ -8,5 +8,6 @@ description: Wer ihr Vater ist, diese Frage plagt Sie, seit der Enthüllung des
   machen etwas mit uns, das ist klar.
 videoUrl: https://youtu.be/t8Z-6vD838w
 categories:
-  - noch-ein-test
+  - aus-dem-leben
+  - reportage
 ---

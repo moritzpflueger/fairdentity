@@ -4,5 +4,5 @@ description: Helmut erfährt nicht nur, dass er ein Kuckuckskind ist sondern noc
   einiges mehr aus dem Leben seiner Mutter.
 videoUrl: https://youtu.be/yyWdOWd_pdM
 categories:
-  - das-ist-ein-test-3
+  - aus-dem-leben
 ---

@@ -6,6 +6,5 @@ description: Ab 1:13 spricht Franzi unser Vereinsgründungsmitglied über ihre
   immer wieder auf unterschiedlichste Art und Weise.
 videoUrl: https://youtu.be/Ghyo_zOcNOI
 categories:
-  - noch-ein-test
-  - das-ist-ein-test-3
+  - selbsterfahrung
 ---
