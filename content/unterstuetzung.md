@@ -9,13 +9,13 @@ title: Finde Unterstützung
 
 # Deutschland
 
-\## Selbsthilfegruppen
+## Selbsthilfegruppen
 
 ![Coverbild Selbsthilfegruppe](/images/8_db8d375e74.png "Coverbild Selbsthilfegruppe")
 
 In Deutschland gibt es bisher noch keine regelmäßig aktive Selbsthilfegruppe, deswegen gründen wir nun eine in Köln. Auch in Thüringen steht eine Gruppe in den Startlöchern.
 
-\## Selbsthilfegruppe NRW (Köln)
+## Selbsthilfegruppe NRW (Köln)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ai-uPypP_yE?si=OsHe-tLF-IuTtMI3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -23,31 +23,31 @@ Wenn Du dich auch als "Kuckuckskind" bezeichnest oder erfahren hast, dass Dein V
 
 E-Mail: kuckuckskinder-selbsthilfe@outlook.de
 
-\## Selbsthilfegruppe Thüringen (Jena)
+## Selbsthilfegruppe Thüringen (Jena)
 
 E-Mail: kuckucks_kinder@gmx.de
 
-\*\*Möchtest du selbst eine Selbsthilfegruppe gründen? Schreib uns gern, wir helfen dir bei den ersten Schritten.\*\*
+**Möchtest du selbst eine Selbsthilfegruppe gründen? Schreib uns gern, wir helfen dir bei den ersten Schritten.**
 
-\## Soforthilfe
+## Soforthilfe
 
 ![Coverbild Soforthilfe](/images/5_10c05a9f22.png "Coverbild Soforthilfe")
 
-\### Seelsorge
+### Seelsorge
 
 Wenn ihr akut Hilfe benötigt, könnt ihr euch rund um die Uhr bei der Nummer der Seelsorge melden. Diese Nummer ist rund um die Uhr erreichbar. Auch an Wochenenden und an Feiertagen.
 
-\*\*Telefon: 0800 / 111 0 111 oder 0800 / 111 0 222\*\*
+**Telefon: 0800 / 111 0 111 oder 0800 / 111 0 222**
 
-\### Nummer gegen Kummer (Hilfe für Kinder und Jugendliche)
+### Nummer gegen Kummer (Hilfe für Kinder und Jugendliche)
 
 Seid ihr noch keine 18 Jahre und möchtet gerne mit jemandem speziell für eurer Alter sprechen, dann könnt ihr euch auch immer gerne beim Kinder- und Jugendtelefon melden. Dort wird euch professionell und anonym Rede und Antwort gestanden. Erreichbar montags bis samstags von 14 - 20 Uhr.
 
-\*\*Kinder- und Jugendtelefon: 116111 oder 0800 / 111 0 333\*\*
+**Kinder- und Jugendtelefon: 116111 oder 0800 / 111 0 333**
 
-\[www.nummergegenkummer.de/kinder-und-jugendtelefon](https://www.nummergegenkummer.de/kinder-und-jugendtelefon.html)
+[www.nummergegenkummer.de/kinder-und-jugendtelefon](https://www.nummergegenkummer.de/kinder-und-jugendtelefon.html)
 
-\## Psychologische Unterstützung
+## Psychologische Unterstützung
 
 ![Coverbild Psychologische Unterstützung](/images/6_585f494318.png "Coverbild Psychologische Unterstützung")
 
@@ -59,27 +59,27 @@ https://www.psychotherapiesuche.de/pid/search/
 
 https://www.therapie.de/therapeutensuche/
 
-\## Mediation
+## Mediation
 
 ![Coverbild Mediation](/images/7_17a649ea00.png "Coverbild Mediation")
 
 Unter Mediation versteht man, dass professionelle Vermitteln zwischen zwei Konflikt-Parteien. Ein/e MediatorIn kann dich zum Beispiel bei einem Gespräch mit deinen Eltern unterstützen.
 
-\## Konflikt-Hotline
+## Konflikt-Hotline
 
 Gibt es einen akuten Konflikt und soll es nicht zur Eskalation kommen, könnt ihr Euch täglich von 8.00 bis 20.00 Uhr bei der Konflikt-Hotline kostenlos beraten lassen.
 
-\*\*Telefon: 0800 247 36 76\*\*
+**Telefon: 0800 247 36 76**
 
 Mehr findest du beim Bundesverband für Mediation.
 
 # Österreich
 
-\## Psychologische Unterstützung
+## Psychologische Unterstützung
 
 ![Coverbild Psychologische Unterstützung](/images/6_585f494318.png "Coverbild Psychologische Unterstützung")
 
-\### Therapie
+### Therapie
 
 Auf dieser Webseite kannst du nach deiner Postleitzahl nach Therapeuten und Therapeutinnen suchen.
 
