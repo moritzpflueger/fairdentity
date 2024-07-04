@@ -6,11 +6,11 @@ description: Seid mit dabei. Stellt mit uns Eure Forderungen auf. Lasst uns
   zusammen wachsen und zusammen stark sein. Wir können so einen Austausch und
   Veränderungen bewirken.
 categories:
-  - noch-ein-test
+  - selbsterfahrung
 image:
-  alt: bild
-  caption: "Foto: Glashaus Karlsruhe"
-  url: /images/bistro3.webp
+  alt: Stellvertreterbild für eine Vereinsgründung
+  caption: "Foto: pexels.com"
+  url: /images/pexels_fox_1595385_9cd5bf89f1.jpg
 ---
 Die Zeit ist Reif für Veränderung und für mehr Sichtbarkeit. Durch die Gründung eines Vereins erhoffen wir uns mehr Präsenz und Zuspruch Seitens Forschung und Rechtsprechung.
 
