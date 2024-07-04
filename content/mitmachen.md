@@ -1,5 +1,5 @@
 ---
-title: Mach mit bei Fairdentity!
+title: Mitmachen
 ---
 ![Coverbild Mitmachen](/images/pexels_min_an_1448709_143b616774.jpg "Coverbild Mitmachen")
 
