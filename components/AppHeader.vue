@@ -14,7 +14,13 @@
             class="text-3xl italic font-josefin font-semibold whitespace-nowrap underline decoration-yellow-400"
             :class="{ '!text-2xl': scrollY > 0 }"
           >
-            <span class="font-black">fair</span><span class="font-bold">de</span>ntity
+            <span 
+              v-for="(char, index) in 'fairdentity'"
+              class="tracking-tighter"
+              :style="`font-weight: ${700 - (index * 30)};`"
+            >
+              {{ char }}
+            </span>
           </h1>
         </NuxtLink>
       </div>
