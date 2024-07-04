@@ -40,7 +40,7 @@
             </svg>
           </NuxtLink>              
         </div>
-        <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-5">
+        <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-5">
           <li v-for="book in moreBooks" :key="book._path">
             <TeaserListItem
               :path="book._path"
@@ -71,7 +71,7 @@ const { data: moreBooks } = await useAsyncData('more-books', () =>
   queryContent('/books')
     .where({ _path: { $ne: `/books/${slug}` } }) // exlude current video
     .sort({ date: -1 })
-    .limit(5)
+    .limit(6)
     .find()
 )
 
