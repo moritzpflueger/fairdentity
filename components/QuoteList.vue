@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto max-w-3xl my-10 px-5 text-center">
+  <section class="mx-auto max-w-4xl px-5 text-center">
     <Swiper
       class="flex"
       :modules="[SwiperNavigation, SwiperAutoplay, SwiperEffectCreative]"
@@ -26,10 +26,10 @@
         class="bg-white !h-auto"
       >
         <span class="flex !h-28 justify-center text-9xl font-bold text-yellow-400 italic leading-tight">"</span>
-        <p class="text-3xl sm:text-4xl font-semibold px-5 sm:px-20">
+        <p class="text-3xl sm:text-4xl font-semibold px-5 sm:px-24">
           {{ quote.text }}
         </p>
-        <div class="font-serif text-xl sm:text-2xl my-5 sm:my-10 px-20">
+        <div class="font-serif text-xl sm:text-2xl my-5 sm:my-10 px-32">
           {{ quote.author }}
         </div>
       </SwiperSlide>
@@ -61,8 +61,8 @@ function shuffleQuotes(array) {
 .custom-button-next, .custom-button-prev {
   cursor: pointer;
   position: absolute;
-  top: var(--swiper-navigation-top-offset, 100%);
-  transform: translateY(-100%);
+  top: var(--swiper-navigation-top-offset, 50%);
+  transform: translateY(-50%);
   @apply 
   bg-neutral-100 
     border 
