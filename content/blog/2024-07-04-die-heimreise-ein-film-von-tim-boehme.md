@@ -13,7 +13,7 @@ image:
   alt: Filmposter "Die Heimreise"
   caption: ©TOB Film (Barnsteiner)
 ---
-ine Dokumentation über einen Mann der sein Schicksal selbst in die Hand nimmt. Bernd Thiele macht sich mit 38 Jahren auf Spurensuche in die Vergangenheit.
+Eine Dokumentation über einen Mann der sein Schicksal selbst in die Hand nimmt. Bernd Thiele macht sich mit 38 Jahren auf Spurensuche in die Vergangenheit.
 
 > "Der Film ist manchmal berührend, dann niederschmetternd und dann auch wieder hoch komisch." - Knut Cordsen, Bayrischer Rundfunk
 
