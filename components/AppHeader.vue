@@ -1,8 +1,9 @@
 <template>
   <header 
-    class="bg-white p-5 fixed w-full z-50 transition-shadow duration-300 ease-in-out"
+    ref="header"
+    class="fixed bg-white py-5 px-7 w-full z-50 transition-shadow duration-300 ease-in-out"
     :class="[
-      { 'shadow !py-2': scrollY > 0 && !showMenu },
+      { 'shadow-md': scrollY > 0 && !showMenu },
       { 'bg-yellow-400': showMenu }
     ]"
   >
@@ -10,17 +11,8 @@
       <div class="navbar-brand">
         <NuxtLink to="/" class="navbar-item">
           <!-- <Logo /> insert Logo if available -->
-          <h1 
-            class="text-3xl italic font-josefin font-semibold whitespace-nowrap underline decoration-yellow-400"
-            :class="{ '!text-2xl': scrollY > 0 }"
-          >
-            <span 
-              v-for="(char, index) in 'fairdentity'"
-              class="tracking-tighter"
-              :style="`font-weight: ${700 - (index * 30)};`"
-            >
-              {{ char }}
-            </span>
+          <h1 class="text-3xl italic font-josefin font-semibold whitespace-nowrap underline decoration-yellow-400" >
+            <span className="text-3xl tracking-tighter font-bold">fairdentity.</span>
           </h1>
         </NuxtLink>
       </div>
@@ -101,6 +93,10 @@
 
 <script setup>
   import { watch } from 'vue'
+  const emit = defineEmits(['headerHeight'])
+
+  const header = ref(null)
+
   const route = useRoute()
   const showMenu = ref(false)
   const scrollY = ref(0)
@@ -115,6 +111,7 @@
 
   onMounted(() => {
     window.addEventListener('scroll', updateScroll)
+    emit('headerHeight', header.value.clientHeight)
   })
 
   onUnmounted(() => {

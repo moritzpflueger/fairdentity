@@ -1,6 +1,6 @@
 <template>
   <section class="">
-    <h1 class="text-4xl text-center pt-36 pb-28 font-serif bg-neutral-100 bg-noise">
+    <h1 class="text-4xl text-center pt-20 pb-28 font-serif bg-neutral-100 bg-noise">
       Alle Bücher
     </h1>
     <ul class="px-5 grid grid-cols-2 sm:grid-cols-4 gap-5 max-w-4xl mx-auto pb-20 -mt-10">

@@ -2,7 +2,7 @@
 <template>
   <section class="">
     <div 
-      class="pt-36 pb-28 bg-cover bg-center bg-no-repeat bg-neutral-100"
+      class="pt-20 pb-28 bg-cover bg-center bg-no-repeat bg-neutral-100"
       :style="`background-image: url(${category.image?.url})`"
     >
       <h1 

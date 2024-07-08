@@ -1,13 +1,18 @@
 <template>
   <div class="w-full">
-    <AppHeader />
-    <NuxtPage class="nuxt-page min-h-screen bg-white !w-full" />
+    <AppHeader @headerHeight="(height) => headerHeight = height"/>
+    <NuxtPage 
+      class="nuxt-page min-h-screen bg-white !w-full"
+      :style="{ paddingTop: `${headerHeight}px` }"
+    />
     <AppFooter />
     <CookieConsent />
   </div>
 </template>
 
 <script setup>
+const headerHeight = ref(0)
+
 useHead({
   script: [
     { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
