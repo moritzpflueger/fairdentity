@@ -19,11 +19,14 @@ module.exports = {
             h1: {
               marginTop: '5rem',
               marginBottom: '1rem',
+              fontFamily: 'Josefin Sans',
             },
             h2: {
-              marginTop: '2rem',
-              marginBottom: '1rem',
+              margin: '1rem 0',
               textDecoration: 'none',
+              fontFamily: 'Josefin Sans',
+              letterSpacing: '-0.05em',
+              fontSize: '2rem',
               a: {
                 textDecoration: 'none',
               }
