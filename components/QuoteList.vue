@@ -23,13 +23,13 @@
       <SwiperSlide 
         v-for="quote in quotes" 
         :key="quote._path" 
-        class="bg-white !h-auto"
+        class="bg-white !h-auto !flex !flex-col !justify-center"
       >
         <span class="flex !h-28 justify-center text-9xl font-bold text-yellow-400 italic leading-tight">"</span>
-        <p class="text-3xl sm:text-4xl font-semibold px-5 sm:px-24">
+        <p class="text-2xl sm:text-4xl font-semibold px-10 sm:px-24">
           {{ quote.text }}
         </p>
-        <div class="font-serif text-xl sm:text-2xl my-5 sm:my-10 px-32">
+        <div class="font-serif text-xl sm:text-2xl my-5 sm:my-10 px-10 sm:px-32">
           {{ quote.author }}
         </div>
       </SwiperSlide>
@@ -61,7 +61,7 @@ function shuffleQuotes(array) {
 .custom-button-next, .custom-button-prev {
   cursor: pointer;
   position: absolute;
-  top: var(--swiper-navigation-top-offset, 50%);
+  top: var(--swiper-navigation-top-offset, 60%);
   transform: translateY(-50%);
   @apply 
   bg-neutral-100 
