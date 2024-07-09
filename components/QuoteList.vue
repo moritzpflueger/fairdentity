@@ -29,13 +29,13 @@
         <p class="text-2xl sm:text-4xl font-semibold px-10 sm:px-24">
           {{ quote.text }}
         </p>
-        <div class="font-serif text-xl sm:text-2xl my-5 sm:my-10 px-10 sm:px-32">
+        <div class="font-serif text-xl sm:text-2xl my-5 sm:my-10 px-16 sm:px-32">
           {{ quote.author }}
         </div>
       </SwiperSlide>
       <!-- Custom Navigation Buttons -->
-      <div class="swiper-button-next custom-button-next"></div>
-      <div class="swiper-button-prev custom-button-prev"></div>        
+      <div class="swiper-button-next custom-button-next !top-[100%] sm:!top-[60%]"></div>
+      <div class="swiper-button-prev custom-button-prev !top-[100%] sm:!top-[60%]"></div>        
     </Swiper>
   </section>  
 </template>
@@ -61,7 +61,7 @@ function shuffleQuotes(array) {
 .custom-button-next, .custom-button-prev {
   cursor: pointer;
   position: absolute;
-  top: var(--swiper-navigation-top-offset, 60%);
+  /* top: var(--swiper-navigation-top-offset, 60%); */
   transform: translateY(-50%);
   @apply 
   bg-neutral-100 
