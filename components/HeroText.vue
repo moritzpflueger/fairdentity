@@ -1,16 +1,12 @@
 <template>
-  <div id="hero-text" class="text-center">
-    <h1 class="text-4xl sm:text-6xl font-light text-center mb-10" >
-      <div class="text-3xl sm:text-5xl">Die Zeit <span class="whitespace-nowrap">ist reif für</span> </div>
-      <span id="typed-text" class="italic tracking-tighter font-black underline decoration-yellow-400">
-      </span>
-      <!-- Für transparente Identität &
-      faire Abstammung. -->
-      <!-- Transparente Herkunft & faire Identität. -->
+  <div class="">
+    <h1 class="font-josefin relative text-4xl sm:text-6xl min-h-56 sm:min-h-64 font-black tracking-tighter" >
+      Die Zeit ist reif für <br />
+      <span id="typed-text"></span>
+      <p class="text-xl sm:text-3xl my-8 font-light tracking-normal font-sans">
+        ein Blog für <span class="">Abstammungsfragen</span> aller Art.
+      </p>
     </h1>
-    <h2 class="text-xl sm:text-3xl mb-8 font-normal font-serif">
-      ein Blog für <span class="">Abstammungsfragen</span> aller Art.
-    </h2>
   </div>
 </template>
 
@@ -22,9 +18,13 @@ let typed
 
 onMounted(() => {
   typed = new Typed('#typed-text', {
-    strings: ["ehrliche Abstammung.", "transparente Kommunikation.", "faire Identität."],
-    typeSpeed: 50,
-    backSpeed: 50,
+    strings: [
+      "<u class='decoration-yellow-300'>faire Identität.</u>",
+      "<u class='decoration-yellow-300'>transparente Abstammung</u>.", 
+      "<u class='decoration-yellow-300'>ehrliche Kommunikation.</u>", 
+    ],
+    typeSpeed: 40,
+    backSpeed: 40,
     backDelay: 2000,
     startDelay: 500,
     loop: true,  
@@ -35,13 +35,3 @@ onUnmounted(() => {
   typed.destroy()
 })
 </script>
-
-<style scoped>
-#hero-text {
-  font-size: 2rem; /* Adjust as needed */
-  font-weight: bold;
-  text-align: center;
-  margin-top: 20px;
-  font-family: 'Josefin Sans', serif !important;
-}
-</style>
