@@ -26,6 +26,6 @@ useHead({
 
 <style>
 body {
-  @apply bg-yellow-400;
+  @apply bg-yellow-300;
 }
 </style>
