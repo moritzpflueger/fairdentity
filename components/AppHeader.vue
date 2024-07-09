@@ -11,8 +11,8 @@
       <div class="navbar-brand">
         <NuxtLink to="/" class="navbar-item">
           <!-- <Logo /> insert Logo if available -->
-          <h1 class="text-3xl italic font-josefin font-semibold whitespace-nowrap underline decoration-yellow-400" >
-            <span className="text-3xl tracking-tighter font-bold">fairdentity.</span>
+          <h1 class="text-3xl font-josefin tracking-tighter font-bold whitespace-nowrap" >
+            fairdentity.
           </h1>
         </NuxtLink>
       </div>
