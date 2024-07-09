@@ -1,10 +1,10 @@
 <template>
   <div class="">
-    <h1 class="font-josefin relative text-4xl sm:text-6xl min-h-56 sm:min-h-64 font-black tracking-tighter" >
+    <h1 class="font-josefin relative px-5 text-4xl sm:text-6xl min-h-56 sm:min-h-64 font-black tracking-tighter" >
       Die Zeit ist reif für <br />
       <span id="typed-text"></span>
-      <p class="text-xl sm:text-3xl my-8 font-light tracking-normal font-sans">
-        ein Blog für <span class="">Abstammungsfragen</span> aller Art.
+      <p class="text-xl sm:text-3xl my-8 pr-20 font-light tracking-normal font-sans">
+        ein Blog für <span class="">Abstammungsfragen</span> <span class="whitespace-nowrap">aller Art</span>.
       </p>
     </h1>
   </div>
