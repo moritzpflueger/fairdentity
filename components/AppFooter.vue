@@ -8,10 +8,10 @@
             <NuxtLink to="/blog">Alle Artikel</Nuxtlink>
           </li>
           <li>
-            <NuxtLink to="/videos">Alle empfohlenen Videos</Nuxtlink>
+            <NuxtLink to="/videos">empfohlene Videos</Nuxtlink>
           </li>
           <li>
-            <NuxtLink to="/books">Alle empfohlenen Bücher</Nuxtlink>
+            <NuxtLink to="/books">empfohlene Bücher</Nuxtlink>
           </li>
         </ul>
       </li>
