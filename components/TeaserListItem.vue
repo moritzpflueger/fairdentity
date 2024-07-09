@@ -1,6 +1,6 @@
 <template>
   <NuxtLink 
-    :to="path" class="block bg-white shadow border rounded-sm overflow-hidden h-full"
+    :to="path" class="block bg-white shadow border rounded-sm overflow-hidden h-full p-3"
     :title="title"
   >
     <img 
