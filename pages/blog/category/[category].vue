@@ -6,7 +6,7 @@
       :style="`background-image: url(${category.image?.url})`"
     >
       <h1 
-        class="font-josefin tracking-tighter text-4xl text-center font-bold py-5 underline decoration-8 decoration-yellow-400"
+        class="font-josefin tracking-tighter text-4xl text-center font-bold py-5 underline decoration-8 decoration-yellow-300"
       >
         {{ category.name }}
       </h1>

@@ -52,7 +52,7 @@ const { data: categories } = await useAsyncData(`category-${route}-${props.categ
   height: calc(100% - 22px);
   z-index: -1;
   transition: all 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
-  @apply bg-yellow-400;
+  @apply bg-yellow-300;
 }
 
 .topic-list__item:hover::after {

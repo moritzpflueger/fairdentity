@@ -1,10 +1,10 @@
 <template>
   <header 
     ref="header"
-    class="fixed bg-white py-5 px-7 w-full z-50 transition-shadow duration-300 ease-in-out"
+    class="bg-yellow-300 fixed py-5 px-7 w-full z-50 transition-shadow duration-300 ease-in-out"
     :class="[
       { 'shadow-md': scrollY > 0 && !showMenu },
-      { 'bg-yellow-400': showMenu }
+      { 'bg-yellow-300': showMenu }
     ]"
   >
     <nav class="mx-auto max-w-6xl flex items-center justify-between" role="navigation" aria-label="main navigation">
@@ -35,7 +35,7 @@
           sm:h-auto 
           w-full
           sm:w-auto 
-          bg-yellow-400
+          bg-yellow-300
           sm:bg-transparent 
           gap-10
           sm:gap-10 
@@ -48,22 +48,22 @@
         :class="{'hidden md:flex' : !showMenu}"
       >
         <li>
-          <NuxtLink to="/blog" class="hover:underline decoration-yellow-400 decoration-4">
+          <NuxtLink to="/blog" class="hover:underline decoration-4">
             Blog
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/videos" class="hover:underline decoration-yellow-400 decoration-4">
+          <NuxtLink to="/videos" class="hover:underline decoration-4">
             Videos
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/books" class="hover:underline decoration-yellow-400 decoration-4">
+          <NuxtLink to="/books" class="hover:underline decoration-4">
             Bücher
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/unterstuetzung" class="hover:underline decoration-yellow-400 decoration-4">
+          <NuxtLink to="/unterstuetzung" class="hover:underline decoration-4">
             Unterstützung
           </NuxtLink>
         </li>
@@ -71,7 +71,7 @@
           <SocialLinks />
         </li>
         <li v-if="showMenu" class="text-xl font-normal">
-          <NuxtLink to="/impressum" class="hover:underline decoration-yellow-400 decoration-4">
+          <NuxtLink to="/impressum" class="hover:underline">
             Impressum
           </NuxtLink>
         </li>

@@ -1,7 +1,7 @@
 <template>
   <div 
     v-if="isInitialized && showBanner" 
-    class="fixed bottom-0 w-full bg-yellow-400 text-neutral-900 p-5 z-50"
+    class="fixed bottom-0 w-full bg-yellow-300 text-neutral-900 p-5 z-50"
     style="box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);"
   >
     <p> 

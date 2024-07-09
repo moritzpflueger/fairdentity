@@ -25,7 +25,7 @@
         :key="quote._path" 
         class="bg-white !h-auto !flex !flex-col !justify-center"
       >
-        <span class="flex !h-28 justify-center text-9xl font-bold text-yellow-400 italic leading-tight">"</span>
+        <span class="flex !h-28 justify-center text-9xl font-bold text-yellow-300 italic leading-tight">"</span>
         <p class="text-2xl sm:text-4xl font-semibold px-10 sm:px-24">
           {{ quote.text }}
         </p>

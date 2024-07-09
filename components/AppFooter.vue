@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-yellow-400 bg-noise flex flex-col items-center gap-10 p-10">
+  <footer class="bg-yellow-300 bg-noise flex flex-col items-center gap-10 p-10">
     <ul class="flex flex-col md:flex-row justify-between w-full gap-5 sm:gap-20">
       <li class="">
         <ul>

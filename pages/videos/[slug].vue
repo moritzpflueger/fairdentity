@@ -17,7 +17,7 @@
         </p>
       <button 
         @click="saveCookieConsent('functional', true)"
-        class="bg-yellow-400 text-black px-4 py-2 rounded-md mt-5"
+        class="bg-yellow-300 text-black px-4 py-2 rounded-md mt-5"
       >
         Funktionelle Cookies zulassen
       </button>
