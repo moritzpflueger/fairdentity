@@ -9,6 +9,7 @@
           :imageUrl="thumbnailUrl(video)"
           :title="video.title"
           :path="video._path"
+          layout="video"
         />
       </li>
     </ul>    

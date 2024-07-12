@@ -23,6 +23,7 @@
             :imageUrl="thumbnailUrl(video)"
             :imageAlt="video.title"
             :title="video.title"
+            layout="video"
           />              
         </li>
       </ul>        

@@ -10,15 +10,16 @@
       class="object-cover object-center"
       :class="[
         { 'aspect-video border-b': layout === 'default' },
-        { 'aspect-[21/29] p-3': layout === 'book' }
+        { 'aspect-[21/29]': layout === 'book' }
       ]"
     />
-    <div class="p-3">
+    <div class="py-3">
       <CategoryTags v-if="categories" :categorySlugs="categories" />
       <h2 
         class="text-2xl leading-tight tracking-tighter font-semibold line-clamp-3 font-josefin"
         :class="[
-          { 'text text-lg': layout === 'book' }
+          { 'text text-lg': layout === 'book' },
+          { 'text text-xl': layout === 'video' },
         ]"
       >
         {{ title }}
