@@ -1,11 +1,14 @@
 <template>
   <section class="mx-auto max-w-3xl -mt-12 px-5 mb-20">
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-10 ">
-      <TeaserListItem 
-        v-for="item in items" 
-        :key="item._path"
-        :imageUrl="item"
-      />
+      <ul>
+        <li
+          v-for="item in items" 
+          :key="item._path"        
+        >
+          <TeaserListItem :imageUrl="item" />          
+        </li>
+      </ul>
       <NuxtLink 
         :to="post._path" class="block bg-white p-2 rounded-lg border"
         v-for="post in items" :key="post._path"

@@ -1,14 +1,17 @@
 <template>
-  <div class="flex flex-wrap mb-2">
-    <NuxtLink 
+  <ul class="flex flex-wrap mb-2">
+    <li 
       v-for="category in categories" 
       :key="category.slug"
-      :to="`/blog/category/${category.slug}`"
-      class="topic-list__item font-josefin tracking-tighter text-lg whitespace-nowrap"
     >
-      {{ category.name }}
-    </NuxtLink>
-  </div>  
+      <NuxtLink 
+        :to="`/blog/category/${category.slug}`"
+        class="topic-list__item font-josefin tracking-tighter text-lg whitespace-nowrap"
+      >
+        {{ category.name }}
+      </NuxtLink>      
+    </li>
+  </ul>  
 </template>
 
 <script setup>

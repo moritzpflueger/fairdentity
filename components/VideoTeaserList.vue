@@ -13,16 +13,19 @@
           </svg>
         </NuxtLink>              
       </div>
-      <div class="sm:col-span-2 grid grid-cols-1 sm:grid-cols-3 gap-5 md:gap-10 order-2">
-        <TeaserListItem
+      <ul class="sm:col-span-2 grid grid-cols-1 sm:grid-cols-3 gap-5 md:gap-10 order-2">
+        <li
           v-for="video in videos"
-          :key="video._path"
-          :path="video._path"
-          :imageUrl="thumbnailUrl(video)"
-          :imageAlt="video.title"
-          :title="video.title"
-        />      
-      </div>        
+          :key="video._path"        
+        >
+          <TeaserListItem
+            :path="video._path"
+            :imageUrl="thumbnailUrl(video)"
+            :imageAlt="video.title"
+            :title="video.title"
+          />              
+        </li>
+      </ul>        
     </div>
   </section>  
 </template>

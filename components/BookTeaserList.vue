@@ -13,18 +13,21 @@
           </svg>
         </NuxtLink>              
       </div>
-      <div class="sm:col-span-2 grid grid-cols-2 sm:grid-cols-4 gap-5 order-2">
-        <TeaserListItem
+      <ul class="sm:col-span-2 grid grid-cols-2 sm:grid-cols-4 gap-5 order-2">
+        <li
           v-for="book in books"
-          :key="book._path"
-          :title="book.title"
-          :author="book.author"
-          :path="book._path"
-          :imageUrl="book.image.url"
-          :imageAlt="book.image.alt"
-          :layout="'book'"
-        />      
-      </div>        
+          :key="book._path"        
+        >
+          <TeaserListItem
+            :title="book.title"
+            :author="book.author"
+            :path="book._path"
+            :imageUrl="book.image.url"
+            :imageAlt="book.image.alt"
+            :layout="'book'"
+          />          
+        </li>
+      </ul>        
     </div>
   </section>  
 </template>
