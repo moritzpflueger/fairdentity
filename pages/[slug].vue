@@ -1,10 +1,10 @@
 <template>
   <main class="bg-white px-5">
-    <section class="mx-auto max-w-3xl py-20">
+    <section class="mx-auto max-w-3xl py-5 sm:py-20">
       <ContentDoc>
         <template v-slot="{ doc }">
           <article>
-            <h1 class="font-bold font-josefin tracking-tighter text-6xl my-10">{{ doc.title }}</h1>
+            <h1 class="font-bold font-josefin tracking-tighter text-5xl sm:text-6xl my-10 break-words">{{ doc.title }}</h1>
             <ContentRenderer class="prose" :value="doc" />
           </article>
         </template>
