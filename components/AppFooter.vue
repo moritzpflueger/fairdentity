@@ -1,51 +1,53 @@
 <template>
-  <footer class="bg-yellow-300 bg-noise flex flex-col items-center gap-10 p-10">
-    <ul class="flex flex-col md:flex-row justify-between w-full gap-5 sm:gap-20">
-      <li class="">
-        <ul>
-          <li class="font-bold mb-1">Inhalte</li>
-          <li>
-            <NuxtLink to="/blog">Alle Artikel</Nuxtlink>
-          </li>
-          <li>
-            <NuxtLink to="/videos">empfohlene Videos</Nuxtlink>
-          </li>
-          <li>
-            <NuxtLink to="/books">empfohlene Bücher</Nuxtlink>
-          </li>
-        </ul>
-      </li>
-      <li class="">
-        <ul>
-          <li class="font-bold mb-1">Mitmachen</li>
-          <li v-for="page in pages" :key="page._path">
-            <NuxtLink :to="page._path">{{ page.title }}</Nuxtlink>
-          </li>
-        </ul>
-      </li>
-      <li class="">
-        <ul>
-          <li class="font-bold mb-1">Aktuelle Artikel</li>
-          <li v-for="post in posts" :key="post._path">
-            <NuxtLink :to="post._path">{{ post.title }}</Nuxtlink>
-          </li>
-        </ul>
-      </li>
-    </ul>
-    <ul class="flex flex-col sm:flex-row sm:items-center sm:gap-10 w-full">  
-      <li class="flex gap-3 order-last sm:order-none mt-5 sm:mt-0">
-        <SocialLinks />
-      </li>
-      <li>
-        <NuxtLink to="/impressum">Impressum</Nuxtlink>
-      </li>
-      <li>
-        <NuxtLink to="/datenschutzerklaerung">Datenschutzerklärung</Nuxtlink>
-      </li>            
-      <li class="sm:ml-auto font-semibold">
-        &copy; {{ currentYear }} Fairdentity
-      </li>
-    </ul>
+  <footer class="bg-yellow-300 bg-noise">
+    <div class="md:mx-auto max-w-4xl flex flex-col md:items-center gap-10 p-5">
+      <ul class="flex flex-col md:flex-row justify-between w-full gap-5 md:gap-20">
+        <li class="">
+          <ul>
+            <li class="font-bold mb-1">Inhalte</li>
+            <li>
+              <NuxtLink to="/blog">Alle Artikel</Nuxtlink>
+            </li>
+            <li>
+              <NuxtLink to="/videos">empfohlene Videos</Nuxtlink>
+            </li>
+            <li>
+              <NuxtLink to="/books">empfohlene Bücher</Nuxtlink>
+            </li>
+          </ul>
+        </li>
+        <li class="">
+          <ul>
+            <li class="font-bold mb-1">Mitmachen</li>
+            <li v-for="page in pages" :key="page._path">
+              <NuxtLink :to="page._path">{{ page.title }}</Nuxtlink>
+            </li>
+          </ul>
+        </li>
+        <li class="">
+          <ul>
+            <li class="font-bold mb-1">Aktuelle Artikel</li>
+            <li v-for="post in posts" :key="post._path">
+              <NuxtLink :to="post._path">{{ post.title }}</Nuxtlink>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="flex flex-col sm:flex-row sm:items-center sm:gap-10 w-full">  
+        <li class="flex gap-3 order-last sm:order-none mt-5 sm:mt-0">
+          <SocialLinks />
+        </li>
+        <li>
+          <NuxtLink to="/impressum">Impressum</Nuxtlink>
+        </li>
+        <li>
+          <NuxtLink to="/datenschutzerklaerung">Datenschutzerklärung</Nuxtlink>
+        </li>            
+        <li class="sm:ml-auto font-semibold">
+          &copy; {{ currentYear }} Fairdentity
+        </li>
+      </ul>      
+    </div>
   </footer>
 </template>
 
