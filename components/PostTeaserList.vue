@@ -30,7 +30,7 @@
 const { data: posts } = await useAsyncData('posts-teaser', () => 
   queryContent('/blog')
     .sort({ date: -1 })
-    .limit(1)
+    .limit(3)
     .find()
 )
 console.log('my posts', posts.value)
