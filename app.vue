@@ -22,9 +22,3 @@ useHead({
   ],
 })
 </script>
-
-<style>
-body {
-  @apply bg-yellow-300;
-}
-</style>
