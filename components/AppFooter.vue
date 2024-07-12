@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-yellow-300 bg-noise">
-    <div class="md:mx-auto max-w-4xl flex flex-col md:items-center gap-10 p-5">
+    <div class="md:mx-auto max-w-6xl flex flex-col md:items-center gap-10 p-5">
       <ul class="flex flex-col md:flex-row justify-between w-full gap-5 md:gap-20">
         <li class="">
           <ul>
