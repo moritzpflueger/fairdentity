@@ -3,10 +3,11 @@
     <li 
       v-for="category in categories" 
       :key="category.slug"
+      class="topic-list__item font-josefin tracking-tighter text-lg whitespace-nowrap"
     >
       <NuxtLink 
-        :to="`/blog/category/${category.slug}`"
-        class="topic-list__item font-josefin tracking-tighter text-lg whitespace-nowrap"
+        :to="`/blog/category/${category.slug}`" 
+        @click.stop
       >
         {{ category.name }}
       </NuxtLink>      

@@ -1,6 +1,7 @@
 <template>
-  <NuxtLink 
-    :to="path" class="block bg-white shadow border rounded-sm overflow-hidden h-full p-3"
+  <div 
+    @click="$router.push(path)"
+    class="block bg-white shadow border rounded-sm overflow-hidden h-full p-3 cursor-pointer"
     :title="title"
   >
     <img 
@@ -25,7 +26,7 @@
       <p v-if="author" class="text-neutral-500">{{ author }}</p>
       <p v-if="description" class="line-clamp-5">{{ description }}</p>            
     </div>
-  </NuxtLink>     
+  </div>     
 </template>
 
 <script setup>
@@ -45,7 +46,7 @@ const props = defineProps({
   },
   imageAlt: {
     type: String,
-    required: true
+    required: false
   },
   title: {
     type: String,
