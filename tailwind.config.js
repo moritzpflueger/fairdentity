@@ -10,8 +10,7 @@ module.exports = {
         noise: "url('~/public/assets/noise.png')"
       },
       fontFamily: {
-        josefin: ['Josefin Sans'],
-        roboto: ['Roboto Condensed']
+        josefin: ['Josefin Sans, sans-serif'],
       },
       typography: {
         DEFAULT: {
