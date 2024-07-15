@@ -33,5 +33,4 @@ const { data: posts } = await useAsyncData('posts-teaser', () =>
     .limit(3)
     .find()
 )
-console.log('my posts', posts.value)
 </script>
