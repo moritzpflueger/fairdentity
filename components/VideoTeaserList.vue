@@ -33,7 +33,7 @@
 
 <script setup>
 
-const { data: videos } = await useAsyncData('teaser-videos', () => 
+const { data: videos } = await useAsyncData('videos-teaser', () => 
   queryContent('videos')
     .sort({ date: -1 })
     .limit(3)
