@@ -15,12 +15,12 @@
         <p class="text-center text-neutral-100 px-20">
           Dieses Video kann nur angezeigt werden, wenn du der Verwendung von Cookies zustimmst.
         </p>
-      <button 
-        @click="saveCookieConsent('functional', true)"
-        class="bg-yellow-300 text-black px-4 py-2 rounded-md mt-5"
-      >
-        Funktionelle Cookies zulassen
-      </button>
+        <button 
+          @click="saveCookieConsent('functional', true)"
+          class="bg-yellow-300 text-black px-4 py-2 rounded-md mt-5"
+        >
+          Funktionelle Cookies zulassen
+        </button>
       </div>
 
       <CategoryTags :categorySlugs="video.categories" />
