@@ -27,7 +27,7 @@
 
 <script setup>
 const { data: links } = await useAsyncData('links', () => 
-  queryContent('/external-links')
+  queryContent('external-links')
     .find()
 )
 

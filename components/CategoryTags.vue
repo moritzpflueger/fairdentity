@@ -26,7 +26,7 @@ const props = defineProps({
 })
 
 const { data: categories } = await useAsyncData(`category-${route}-${props.categorySlugs.toString()}`, () => 
-  queryContent('/categories')
+  queryContent('categories')
     .where({ slug: { $in: props.categorySlugs }})
     .only(['name', 'slug'])
     .find()

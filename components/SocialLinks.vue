@@ -8,7 +8,7 @@
 
 <script setup>
 const { data: settings } = await useAsyncData('settings', () =>
-  queryContent('/settings')
+  queryContent('settings')
     .only(['social_links'])
     .findOne()
 )

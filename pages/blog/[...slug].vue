@@ -63,13 +63,13 @@ const postDate = computed(() =>
 )
 
 const { data: post } = await useAsyncData(`post-${route.path}`, () => 
-  queryContent('/blog')
+  queryContent('blog')
     .where({ _path: route.path })
     .findOne()
 )
 
 const { data: morePosts } = await useAsyncData(`more-posts-${route.path}`, () =>
-  queryContent('/blog')
+  queryContent('blog')
     .where({ _path: { $ne: `/blog/${slug}` } }) // exlude current video
     .sort({ date: -1 })
     .limit(3)

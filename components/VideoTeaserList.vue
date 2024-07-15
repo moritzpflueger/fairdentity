@@ -34,7 +34,7 @@
 <script setup>
 
 const { data: videos } = await useAsyncData('videos', () => 
-  queryContent('/videos')
+  queryContent('videos')
     .sort({ date: -1 })
     .limit(3)
     .find()

@@ -18,7 +18,7 @@
 
 <script setup>
 const { data: videos } = await useAsyncData('videos', () => 
-  queryContent('/videos').find()
+  queryContent('videos').find()
 )
 
 const videoId = (video) => {

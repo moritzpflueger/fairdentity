@@ -35,7 +35,7 @@
 <script setup>
 
 const { data: books } = await useAsyncData('books-teaser', () => 
-  queryContent('/books')
+  queryContent('books')
     .sort({ date: -1 })
     .limit(4)
     .find()

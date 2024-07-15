@@ -43,7 +43,7 @@
 <script setup>
 const { data: quotes } = await useAsyncData('quotes', async () => {
 
-  const fetchedQuotes = await queryContent('/quotes').find()
+  const fetchedQuotes = await queryContent('quotes').find()
   return shuffleQuotes(fetchedQuotes)
 })
 

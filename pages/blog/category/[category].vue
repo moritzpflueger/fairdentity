@@ -33,7 +33,7 @@ const route = useRoute()
 const { category: categorySlug } = route.params
 
 const { data: posts } = await useAsyncData('posts', () => 
-  queryContent('/blog')
+  queryContent('blog')
     .where({ 'categories': { $contains: categorySlug } })
     .only(['title', 'description', '_path', 'image', 'categories'])
     .sort({ date: -1 })
@@ -41,7 +41,7 @@ const { data: posts } = await useAsyncData('posts', () =>
 )
 
 const { data: category } = await useAsyncData(`category-${route}`, () => 
-  queryContent('/categories')
+  queryContent('categories')
     .where({ slug: { $eq: categorySlug }})
     .findOne()
 )

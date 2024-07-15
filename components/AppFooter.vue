@@ -60,7 +60,7 @@ const isTopLevelPage = (path) => {
 }
 
 const { data: posts } = await useAsyncData('posts-footer', () => 
-  queryContent('/blog')
+  queryContent('blog')
     .only(['_path', 'title'])
     .limit(5)
     .find()

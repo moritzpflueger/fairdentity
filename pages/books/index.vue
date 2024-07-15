@@ -20,6 +20,6 @@
 
 <script setup>
 const { data: books } = await useAsyncData('books', () => 
-  queryContent('/books').find()
+  queryContent('books').find()
 )
 </script>

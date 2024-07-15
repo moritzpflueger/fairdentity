@@ -70,7 +70,7 @@ const route = useRoute()
 const slug = route.params.slug
 
 const { data: video } = await useAsyncData(`video-${route.path}`, () => 
-  queryContent('/videos')
+  queryContent('videos')
     .where({ _path: route.path })
     .findOne()
 )
@@ -85,7 +85,7 @@ const embedUrl = computed(() => {
 })
 
 const { data: moreVideos } = await useAsyncData('more-videos', () =>
-  queryContent('/videos')
+  queryContent('videos')
     .where({ _path: { $ne: `/videos/${slug}` } }) // exlude current video
     .sort({ date: -1 })
     .limit(3)

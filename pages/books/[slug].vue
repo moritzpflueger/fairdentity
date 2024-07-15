@@ -62,13 +62,13 @@ const route = useRoute()
 const slug = route.params.slug
 
 const { data: book } = await useAsyncData(`book-${route.path}`, () => 
-  queryContent('/books')
+  queryContent('books')
     .where({ _path: route.path })
     .findOne()
 )
 
 const { data: moreBooks } = await useAsyncData('more-books', () =>
-  queryContent('/books')
+  queryContent('books')
     .where({ _path: { $ne: `/books/${slug}` } }) // exlude current video
     .sort({ date: -1 })
     .limit(6)
