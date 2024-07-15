@@ -15,5 +15,10 @@ export default defineNuxtConfig({
   ],
   routeRules: {
     '/': { prerender: true }
+  },
+  app: {
+    head: {
+      title: 'Fairdentity | Ein Blog für Abstammungsfragen aller Art', // Default title
+    }
   }
 })
